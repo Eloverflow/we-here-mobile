@@ -1,6 +1,6 @@
 {
-  "name": "ionicMaps",
-  "app_id": "d2835955",
+  "name": "wehere",
+  "app_id": "da581175",
   "gulpStartupTasks": [
     "sass",
     "watch"
