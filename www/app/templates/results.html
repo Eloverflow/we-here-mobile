@@ -1,9 +1,30 @@
 <ion-view>
   <ion-nav-title>{{search}}</ion-nav-title>
   <ion-nav-buttons side="right">
-    <button class="button button-clear icon" ng-disabled="loading" ng-class="{'ion-earth': show.list, 'ion-ios-list': !show.list}" ng-click="show.list = !show.list">
+    <button class="button button-clear icon" ng-disabled="loading" ng-class="{'ion-earth': show.list, 'ion-ios-list': !show.list}" ng-click="show.list = !show.list; switchDiscover()">
     </button>
   </ion-nav-buttons>
+  <div ng-hide="hideDiv" id="discover" class="row discover">
+    <div class="col col-75">
+      <button class="button button-block button-calm" ng-click="showOverlayDicover()">
+        Discover
+      </button>
+    </div>
+    <div class="col">
+      <button class="button button-block button-assertive" ng-click="hideDiscover()">
+        <i class="icon ion-android-close"></i>
+      </button>
+    </div>
+  </div>
+  <div ng-show="showDiv" id="discoverClosed" class="row discover">
+    <div class="col col-75" hidden>
+    </div>
+    <div class="col">
+      <button class="button button-block button-dark displayDiscover" ng-click="showDiscover()">
+        <i class="icon ion-android-arrow-back"></i>
+      </button>
+    </div>
+  </div>
   <div id="map" data-tap-disabled="true" google-map style="height:88%; width: 100%;" api-key="AIzaSyB16sGmIekuGIvYOfNoW9T44377IU2d2Es" events="events"></div>
   <ion-item style="top: -25px;" ng-show="!show.list && baseEvent.id" ui-sref="detail({id: baseEvent.id})" class="item-royal item-avatar item-icon-right">
     <img ng-src="{{baseEvent.thumb}}">

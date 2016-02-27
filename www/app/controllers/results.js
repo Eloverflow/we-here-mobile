@@ -12,7 +12,8 @@ define([
     '$timeout',
     '$ionicHistory',
     'eventService',
-    function ($scope, $stateParams, $state, $timeout, $ionicHistory, eventService) {
+    '$ionicLoading',
+    function ($scope, $stateParams, $state, $timeout, $ionicHistory, eventService, $ionicLoading) {
       var first = true;
       $scope.limit = 10;
       $scope.show = {
@@ -86,6 +87,51 @@ define([
           wheelChairLift: $scope.wheelChairLift
         });
       };
+
+      $scope.discoverWasHidden = false;
+      $scope.showDiv = false;
+
+      $scope.hideDiscover = function () {
+        $scope.hideDiv=true;
+        $scope.showDiv=true;
+
+        $scope.discoverWasHidden = true;
+      };
+
+      $scope.showDiscover = function () {
+        $scope.hideDiv=false;
+        $scope.showDiv=false;
+
+        $scope.discoverWasHidden = false;
+      };
+
+
+      $scope.switchDiscover = function () {
+
+        if($scope.hideDiv == true && $scope.discoverWasHidden != true){
+          $scope.hideDiv=false;
+        }
+        else{
+          $scope.hideDiv=true;
+        }
+
+        if($scope.showDiv == false && $scope.discoverWasHidden == true){
+          $scope.showDiv=true;
+        }
+        else{
+          $scope.showDiv=false;
+        }
+      };
+
+      $scope.showOverlayDicover = function() {
+        $ionicLoading.show({
+          templateUrl: '/app/templates/overlayDiscover.html'
+        });
+      };
+      $scope.hideOverlayDicover = function(){
+        $ionicLoading.hide();
+      };
+
     }
   ]);
 });
