@@ -1,5 +1,5 @@
 <ion-view>
-  <ion-nav-title>Details</ion-nav-title>
+  <ion-nav-title>Détails</ion-nav-title>
   <ion-content padding="true">
     <ion-refresher class="spinner-balanced" on-refresh="reload()"></ion-refresher>
     <div class="text-center">
@@ -7,7 +7,7 @@
     </div>
     <div ng-show="!loading">
       <h3>{{event.name}}</h3>
-      <h4><b>{{event.city}}</b> <small>({{event.district}})</small></h4>
+      <h4><b>{{event.city}}</b></h4>
       <br>
 
       <div class="text-center">
@@ -15,34 +15,45 @@
       </div>
 
       <ion-list>
-        <ion-item class="item-divider item-icon-right"><b>Address</b> <i class="icon ion-location"></i></ion-item>
+        <ion-item class="item-divider item-icon-right"><b>Adresse</b> <i class="icon ion-location"></i></ion-item>
         <ion-item>
-          {{event.street}} {{event.number}}<br>
+          {{event.number}} {{event.street}}<br>
           {{event.zip}} {{event.city}}
         </ion-item>
       </ion-list>
       <br>
       <ion-list>
-        <ion-item class="item-divider item-icon-right"><b>Dates</b> <i class="icon ion-ios-calendar-outline"></i></ion-item>
+        <ion-item class="item-divider item-icon-right"><b>Heures d'ouverture</b> <i class="icon ion-ios-calendar-outline"></i></ion-item>
         <ion-item ng-repeat="date in event.dates">
           {{date}}
         </ion-item>
       </ion-list>
       <br>
       <ion-list>
-        <ion-item class="item-divider item-icon-right"><b>Contact</b> <i class="icon ion-chatboxes"></i></ion-item>
+        <ion-item class="item-divider item-icon-right"><b>Contacter</b> <i class="icon ion-chatboxes"></i></ion-item>
         <ion-item class="item-icon-right" ng-click="call()">
-          Call us
+          Téléphoner nous
           <i class="icon ion-android-call"></i>
         </ion-item>
         <ion-item class="item-icon-right" ng-click="mail()">
-          Send us an e-mail
+          Envoyer nous un courriel
           <i class="icon ion-ios-email"></i>
         </ion-item>
         <ion-item class="item-icon-right" ng-click="website()">
-          Visit our homepage
+          Visiter notre site web
           <i class="icon ion-ios-home"></i>
         </ion-item>
+      </ion-list>
+      <br>
+      <ion-list>
+        <ion-item class="item-divider item-icon-right"><b>Avis</b> <i class="icon ion-ios-star"></i></ion-item>
+        <ion-item ng-repeat="rating in event.ratings" style="white-space: normal;">
+          <b>{{rating.name}}</b>
+          <br />
+          <i class="icon" ng-class="isFullStar(rating.rate, i) ? 'ion-ios-star' : 'ion-ios-star-outline'" ng-repeat="i in [1, 2, 3, 4, 5] track by $index"></i>
+          {{rating.comment}}
+        </ion-item>
+        <ion-item ng-click="openRatingModal()"><b>DONNER VOTRE AVIS!</b></ion-item>
       </ion-list>
     </div>
   </ion-content>
@@ -54,10 +65,6 @@
     </div>
     <h1 class="title"></h1>
     <div class="buttons">
-      <div class="button button-clear" ng-disabled="loading" ng-click="report()">
-        Report
-        <i class="icon ion-android-alert"></i>
-      </div>
     </div>
   </ion-footer-bar>
 </ion-view>
