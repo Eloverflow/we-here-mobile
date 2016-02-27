@@ -1,0 +1,57 @@
+<ion-view>
+  <ion-nav-title>Filtres<i class="icon ion-ios-location"></i></ion-nav-title>
+  <ion-content>
+    <br>
+    <br>
+    <br>
+    <ion-list>
+      <div>
+        <ion-item class="item-stable"
+                  ng-click="toggleGroup(categories)"
+                  ng-class="{active: isGroupShown(categories)}">
+          <i class="icon" ng-class="isGroupShown(categories) ? 'ion-minus' : 'ion-plus'"></i>
+          &nbsp;
+          Catégorie
+        </ion-item>
+        <ion-item class="item-accordion"
+                  ng-repeat="item in categories.items"
+                  ng-show="isGroupShown(categories)">
+          {{item}}
+        </ion-item>
+      </div>
+    </ion-list>
+    <ion-list>
+      <div>
+        <ion-item class="item-stable"
+                  ng-click="toggleGroup(moods)"
+                  ng-class="{active: isGroupShown(moods)}">
+          <i class="icon" ng-class="isGroupShown(moods) ? 'ion-minus' : 'ion-plus'"></i>
+          &nbsp;
+          Humeur
+        </ion-item>
+        <ion-item class="item-accordion"
+                  ng-repeat="item in moods.items"
+                  ng-show="isGroupShown(moods)">
+          {{item}}
+        </ion-item>
+      </div>
+    </ion-list>
+    <ion-list>
+      <div>
+        <ion-item class="item-stable"
+                  ng-click="toggleGroup(activities)"
+                  ng-class="{active: isGroupShown(activities)}">
+          <i class="icon" ng-class="isGroupShown(activities) ? 'ion-minus' : 'ion-plus'"></i>
+          &nbsp;
+          Activité
+        </ion-item>
+        <ion-item class="item-accordion"
+                  ng-repeat="item in activities.items"
+                  ng-show="isGroupShown(activities)">
+          {{item}}
+        </ion-item>
+      </div>
+    </ion-list>
+
+  </ion-content>
+</ion-view>

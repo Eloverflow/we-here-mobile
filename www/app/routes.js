@@ -31,6 +31,11 @@ define([
           url: '/detail/:id',
           controller: 'DetailCtrl',
           templateUrl: 'app/templates/detail.html'
+        })
+        .state('filter', {
+          url: '/filter',
+          controller: 'FilterCtrl',
+          templateUrl: 'app/templates/filter.html'
         });
     }
   ]);

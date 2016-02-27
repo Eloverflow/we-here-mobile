@@ -643,6 +643,26 @@ define([
         title: 'Contact',
         icon: 'ion-paper-airplane'
       }];
+
+      this.filters = [{
+        name: 'micro-brasserie',
+        type: 'catégorie'
+      },{
+        name: 'discotheque',
+        type: 'catégorie'
+      },{
+        name: 'dancer',
+        type: 'activité'
+      },{
+        name: 'boire un verre',
+        type: 'activité'
+      },{
+        name: 'social',
+        type: 'humeur'
+      },{
+        name: '',
+        type: 'humeur'
+      }];
     }
   ]);
 });
