@@ -7,629 +7,472 @@ define([
     function () {
       this.events = [{
         id: 1,
-        name: 'Special Event',
-        city: 'Grevenbroich',
-        district: 'Düsseldorf',
-        street: 'Kurt-Schumacher-Str',
-        number: '17',
-        zip: '41515',
-        lat: 51.090209,
-        lng: 6.585863,
+        name: "Le temps d'une pinte",
+        city: 'Trois-Rivière',
+        street: 'Rue Notre Dame Centre',
+        number: '1465',
+        zip: 'G9A 4X4',
+        lat: 46.341232,
+        lng: -72.540404,
         dates: [
-          'Monday: 9:00 AM',
-          'Sunday: 9:00 AM'
+          'Lundi: Fermé',
+          'Mardi: Fermé',
+          'Mercredi: Fermé',
+          'Jeudi: 11:00 AM - 3:00 AM',
+          'Vendredi: 11:00 AM - 3:00 AM',
+          'Samedi: 11:00 AM - 3:00 AM',
+          'Dimanche: 11:00 AM - 3:00 AM'
         ],
         contact: {
-          tel: '1234/56789',
+          tel: '(819) 691-3371',
           email: 'test@example.com'
         },
-        website: 'http://example.com'
+        website: 'letempsdunepinte.ca',
+        type: "Bar"
       }, {
         id: 2,
-        name: 'Special Event',
-        city: 'Straußfurt',
-        district: 'Erfurt',
-        street: 'Kurt-Schumacher-Str',
-        number: '17',
-        zip: '41515',
+        name: "Gambrinus Brasserie Artisanale",
+        city: 'Trois-Rivière',
+        street: 'Boulevard des Forges',
+        number: '3160',
+        zip: 'G8Z 1V6',
+        lat: 46.350535,
+        lng: -72.572628,
         dates: [
-          'Monday: 9:00 AM',
-          'Sunday: 9:00 AM'
+          'Lundi: Fermé',
+          'Mardi: Fermé',
+          'Mercredi: Fermé',
+          'Jeudi: 11:00 AM - 3:00 AM',
+          'Vendredi: 11:00 AM - 3:00 AM',
+          'Samedi: 11:00 AM - 3:00 AM',
+          'Dimanche: 11:00 AM - 3:00 AM'
         ],
-        lat: 51.163893,
-        lng: 10.986114,
-        wheelchairLift: true,
         contact: {
-          tel: '1234/56789',
+          tel: '(819) 694-4484',
           email: 'test@example.com'
         },
-        website: 'http://example.com'
+        website: 'http://www.gambrinus.qc.ca/',
+        type: "Bar"
       }, {
         id: 3,
-        name: 'Special Event',
-        city: 'Gebesee',
-        district: 'Erfurt',
-        street: 'Kurt-Schumacher-Str',
-        number: '17',
-        zip: '41515',
+        name: "Crêperie Dc",
+        city: 'Trois-Rivière',
+        street: 'Boulevard des Récollets',
+        number: '855',
+        zip: 'G8Z 3W4',
+        lat: 46.359321,
+        lng: -72.570051,
         dates: [
-          'Monday: 9:00 AM',
-          'Sunday: 9:00 AM'
+          'Lundi: 8:00 AM - 9:00 PM',
+          'Mardi: 8:00 AM - 9:00 PM',
+          'Mercredi: 8:00 AM - 9:00 PM',
+          'Jeudi: 8:00 AM - 11:00 PM',
+          'Vendredi: 11:00 AM - 11:00 PM',
+          'Samedi: 11:00 AM - 11:00 PM',
+          'Dimanche: 11:00 AM - 9:00 PM'
         ],
-        lat: 51.114004,
-        lng: 10.933228,
-        wheelchair: true,
         contact: {
-          tel: '1234/56789',
+          tel: '(819) 694-4484',
           email: 'test@example.com'
         },
-        website: 'http://example.com'
+        type: "Restaurant"
       }, {
         id: 4,
-        name: 'Special Event',
-        city: 'Grevenbroich',
-        district: 'Düsseldorf',
-        street: 'Kurt-Schumacher-Str',
-        number: '17',
-        zip: '41515',
+        name: "Sushizo",
+        city: 'Trois-Rivière',
+        street: 'Rue Royale',
+        number: '1350',
+        zip: 'G9A 4J4',
+        lat: 46.343280,
+        lng: -72.543860,
         dates: [
-          'Monday: 9:00 AM',
-          'Sunday: 9:00 AM'
+          'Lundi: 8:00 AM - 9:00 PM',
+          'Mardi: 8:00 AM - 9:00 PM',
+          'Mercredi: 8:00 AM - 9:00 PM',
+          'Jeudi: 8:00 AM - 11:00 PM',
+          'Vendredi: 11:00 AM - 11:00 PM',
+          'Samedi: 11:00 AM - 11:00 PM',
+          'Dimanche: 11:00 AM - 9:00 PM'
         ],
-        satTrans: true,
         contact: {
-          tel: '1234/56789',
+          tel: '(819) 840-2919',
           email: 'test@example.com'
         },
-        website: 'http://example.com'
+        type: "Restaurant"
       }, {
         id: 5,
-        name: 'Special Event',
-        city: 'Schwabhausen',
-        district: 'Erfurt',
-        street: 'Frühlingsstraße',
-        number: '17',
-        zip: '41515',
+        name: "La Maison de Débauche par le Carlito",
+        city: 'Trois-Rivière',
+        street: 'Rue des Forges',
+        number: '361',
+        zip: 'G9A 4S8',
+        lat: 46.341934,
+        lng: -72.543890,
         dates: [
-          'Monday: 10:00 AM',
-          'Sunday: 9:30 AM'
+          'Lundi: Fermé',
+          'Mardi: Fermé',
+          'Mercredi: Fermé',
+          'Jeudi: 11:00 AM - 3:00 AM',
+          'Vendredi: 11:00 AM - 3:00 AM',
+          'Samedi: 11:00 AM - 3:00 AM',
+          'Dimanche: 11:00 AM - 3:00 AM'
         ],
-        lat: 48.302842,
-        lng: 11.352900,
-        satTrans: true,
-        wheelchair: true,
-        wheelchairLift: true,
         contact: {
-          tel: '1234/56789',
+          tel: '(819) 694-4484',
           email: 'test@example.com'
         },
-        website: 'http://example.com'
+        type: "Bar"
       }, {
         id: 6,
-        name: 'Science Event',
-        city: 'Hachelbich',
-        district: 'Kyffhäuserland',
-        street: 'Oberdorf',
-        number: '10',
-        zip: '99707',
+        name: "Banh Thai Restaurant",
+        city: 'Trois-Rivière',
+        street: 'Boul Gene-H.-Kruger',
+        number: '4730',
+        zip: 'G9A 4N1',
+        lat: 46.324686,
+        lng: -72.565321,
         dates: [
-          'Monday: 10:00 AM',
-          'Sunday: 9:30 AM'
+          'Lundi: 8:00 AM - 9:00 PM',
+          'Mardi: 8:00 AM - 9:00 PM',
+          'Mercredi: 8:00 AM - 9:00 PM',
+          'Jeudi: 8:00 AM - 11:00 PM',
+          'Vendredi: 11:00 AM - 11:00 PM',
+          'Samedi: 11:00 AM - 11:00 PM',
+          'Dimanche: 11:00 AM - 9:00 PM'
         ],
-        lat: 51.344143,
-        lng: 10.966972,
-        satTrans: true,
-        wheelchair: true,
-        wheelchairLift: true,
         contact: {
-          tel: '1234/56789',
+          tel: '(819) 840-2833',
           email: 'test@example.com'
         },
-        website: 'http://example.com'
-      }, {
+        website: 'banhthai.ca',
+        type: "Restaurant"
+      },{
         id: 7,
-        name: 'Science Event',
-        city: 'Berka',
-        district: 'Sondershausen',
-        street: 'Wittchental',
-        number: '10',
-        zip: '99706',
+        name: "ELEPHANT",
+        city: 'Trois-Rivière',
+        street: 'Boulevard des Récollets',
+        number: '820',
+        zip: 'G8Z 3W2',
+        lat: 46.360328,
+        lng: -72.571055,
         dates: [
-          'Monday: 10:00 AM',
-          'Sunday: 9:30 AM'
+          'Lundi: Fermé',
+          'Mardi: Fermé',
+          'Mercredi: Fermé',
+          'Jeudi: 11:00 AM - 3:00 AM',
+          'Vendredi: 11:00 AM - 3:00 AM',
+          'Samedi: 11:00 AM - 3:00 AM',
+          'Dimanche: 11:00 AM - 3:00 AM'
         ],
-        lat: 50.941998,
-        lng: 10.073971,
-        satTrans: true,
-        wheelchair: true,
-        wheelchairLift: true,
         contact: {
-          tel: '1234/56789',
+          tel: '(819) 840-6923',
           email: 'test@example.com'
         },
-        website: 'http://example.com'
-      }, {
+        type: "Bar"
+      },{
         id: 8,
-        name: 'Science Event',
-        city: 'Roßla',
-        district: 'Sangerhausen',
-        street: 'Kurt-Schumacher-Str',
-        number: '17',
-        zip: '41515',
+        name: "Librairie Poirier",
+        city: 'Trois-Rivière',
+        street: 'Boulevard des Récollets',
+        number: '1374',
+        zip: 'G8Z 4L5',
+        lat: 46.353343,
+        lng: -72.578717,
         dates: [
-          'Monday: 9:00 AM',
-          'Sunday: 9:00 AM'
+          'Lundi: 8:00 AM - 9:00 PM',
+          'Mardi: 8:00 AM - 9:00 PM',
+          'Mercredi: 8:00 AM - 9:00 PM',
+          'Jeudi: 8:00 AM - 11:00 PM',
+          'Vendredi: 11:00 AM - 11:00 PM',
+          'Samedi: 11:00 AM - 11:00 PM',
+          'Dimanche: 11:00 AM - 9:00 PM'
         ],
-        lat: 51.463053,
-        lng: 11.069677,
-        satTrans: true,
         contact: {
-          tel: '1234/56789',
+          tel: '(819) 379-8980',
           email: 'test@example.com'
         },
-        website: 'http://example.com'
-      }, {
+        website: 'librairiepoirier.ca',
+        type: "Autre"
+      },{
         id: 9,
-        name: 'Science Event',
-        city: 'Kelbra',
-        district: 'Sangerhausen',
-        street: 'Kurt-Schumacher-Str',
-        number: '17',
-        zip: '41515',
+        name: "L'Oriflamme",
+        city: 'Trois-Rivière',
+        street: 'Boulevard des Forges',
+        number: '1900',
+        zip: 'G8Z 0A3',
+        lat: 46.345672,
+        lng: -72.573886,
         dates: [
-          'Monday: 9:00 AM',
-          'Sunday: 9:00 AM'
+          'Lundi: Fermé',
+          'Mardi: Fermé',
+          'Mercredi: Fermé',
+          'Jeudi: 11:00 AM - 3:00 AM',
+          'Vendredi: 11:00 AM - 3:00 AM',
+          'Samedi: 11:00 AM - 3:00 AM',
+          'Dimanche: 11:00 AM - 3:00 AM'
         ],
-        lat: 51.434340,
-        lng: 11.101727,
-        satTrans: true,
         contact: {
-          tel: '1234/56789',
+          tel: '(819) 694-4484',
           email: 'test@example.com'
         },
-        website: 'http://example.com'
-      }, {
+        type: "Bar"
+      },{
         id: 10,
-        name: 'Science Event',
-        city: 'Tilleda',
-        district: 'Sangerhausen',
-        street: 'Kurt-Schumacher-Str',
-        number: '17',
-        zip: '41515',
+        name: "Café Morgane",
+        city: 'Trois-Rivière',
+        street: 'Boulevard des Forges',
+        number: '3790',
+        zip: 'G8Y 4R2',
+        lat: 46.354528,
+        lng: -72.582336,
         dates: [
-          'Monday: 9:00 AM',
-          'Sunday: 9:00 AM'
+          'Lundi: 8:00 AM - 9:00 PM',
+          'Mardi: 8:00 AM - 9:00 PM',
+          'Mercredi: 8:00 AM - 9:00 PM',
+          'Jeudi: 8:00 AM - 11:00 PM',
+          'Vendredi: 11:00 AM - 11:00 PM',
+          'Samedi: 11:00 AM - 11:00 PM',
+          'Dimanche: 11:00 AM - 9:00 PM'
         ],
-        lat: 51.418927,
-        lng: 11.143613,
-        satTrans: true,
         contact: {
-          tel: '1234/56789',
+          tel: '(819) 375-8821',
           email: 'test@example.com'
         },
-        website: 'http://example.com'
-      }, {
+        type: "Restaurant"
+      },{
         id: 11,
-        name: 'Sport Event',
-        city: 'Neuss',
-        district: 'Düsseldorf',
-        street: 'Kurt-Schumacher-Str',
-        number: '17',
-        zip: '41515',
+        name: "Le temps d'une pinte",
+        city: 'Trois-Rivière',
+        street: 'Rue Notre Dame Centre',
+        number: '1465',
+        zip: 'G9A 4X4',
+        lat: 46.341232,
+        lng: -72.540404,
         dates: [
-          'Monday: 9:00 AM',
-          'Sunday: 9:00 AM'
+          'Lundi: Fermé',
+          'Mardi: Fermé',
+          'Mercredi: Fermé',
+          'Jeudi: 11:00 AM - 3:00 AM',
+          'Vendredi: 11:00 AM - 3:00 AM',
+          'Samedi: 11:00 AM - 3:00 AM',
+          'Dimanche: 11:00 AM - 3:00 AM'
         ],
-        lat: 51.204197,
-        lng: 6.687951,
-        wheelchair: true,
-        wheelchairLift: true,
         contact: {
-          tel: '1234/56789',
+          tel: '(819) 691-3371',
           email: 'test@example.com'
         },
-        website: 'http://example.com'
+        website: 'letempsdunepinte.ca',
+        type: "Bar"
       }, {
         id: 12,
-        name: 'Sport Event',
-        city: 'Krefeld',
-        district: 'Düsseldorf',
-        street: 'Kurt-Schumacher-Str',
-        number: '17',
-        zip: '41515',
+        name: "Gambrinus Brasserie Artisanale",
+        city: 'Trois-Rivière',
+        street: 'Boulevard des Forges',
+        number: '3160',
+        zip: 'G8Z 1V6',
+        lat: 46.350535,
+        lng: -72.572628,
         dates: [
-          'Monday: 9:00 AM',
-          'Sunday: 9:00 AM'
+          'Lundi: Fermé',
+          'Mardi: Fermé',
+          'Mercredi: Fermé',
+          'Jeudi: 11:00 AM - 3:00 AM',
+          'Vendredi: 11:00 AM - 3:00 AM',
+          'Samedi: 11:00 AM - 3:00 AM',
+          'Dimanche: 11:00 AM - 3:00 AM'
         ],
-        lat: 51.333347,
-        lng: 6.584587,
-        wheelchair: true,
-        wheelchairLift: true,
         contact: {
-          tel: '1234/56789',
+          tel: '(819) 694-4484',
           email: 'test@example.com'
         },
-        website: 'http://example.com'
+        website: 'http://www.gambrinus.qc.ca/',
+        type: "Bar"
       }, {
         id: 13,
-        name: 'Sport Event',
-        city: 'Kempen',
-        district: 'Düsseldorf',
-        street: 'Kurt-Schumacher-Str',
-        number: '17',
-        zip: '41515',
+        name: "Crêperie Dc",
+        city: 'Trois-Rivière',
+        street: 'Boulevard des Récollets',
+        number: '855',
+        zip: 'G8Z 3W4',
+        lat: 46.359321,
+        lng: -72.570051,
         dates: [
-          'Monday: 9:00 AM',
-          'Sunday: 9:00 AM'
+          'Lundi: 8:00 AM - 9:00 PM',
+          'Mardi: 8:00 AM - 9:00 PM',
+          'Mercredi: 8:00 AM - 9:00 PM',
+          'Jeudi: 8:00 AM - 11:00 PM',
+          'Vendredi: 11:00 AM - 11:00 PM',
+          'Samedi: 11:00 AM - 11:00 PM',
+          'Dimanche: 11:00 AM - 9:00 PM'
         ],
-        lat: 51.361224,
-        lng: 6.428719,
-        wheelchair: true,
-        wheelchairLift: true,
         contact: {
-          tel: '1234/56789',
+          tel: '(819) 694-4484',
           email: 'test@example.com'
         },
-        website: 'http://example.com'
+        type: "Restaurant"
       }, {
         id: 14,
-        name: 'Sport Event',
-        city: 'Mühlheim an der Ruhr',
-        district: 'Duisburg',
-        street: 'Kurt-Schumacher-Str',
-        number: '17',
-        zip: '41515',
+        name: "Sushizo",
+        city: 'Trois-Rivière',
+        street: 'Rue Royale',
+        number: '1350',
+        zip: 'G9A 4J4',
+        lat: 46.343280,
+        lng: -72.543860,
         dates: [
-          'Monday: 9:00 AM',
-          'Sunday: 9:00 AM'
+          'Lundi: 8:00 AM - 9:00 PM',
+          'Mardi: 8:00 AM - 9:00 PM',
+          'Mercredi: 8:00 AM - 9:00 PM',
+          'Jeudi: 8:00 AM - 11:00 PM',
+          'Vendredi: 11:00 AM - 11:00 PM',
+          'Samedi: 11:00 AM - 11:00 PM',
+          'Dimanche: 11:00 AM - 9:00 PM'
         ],
-        lat: 51.421209,
-        lng: 6.882591,
-        wheelchair: true,
-        wheelchairLift: true,
         contact: {
-          tel: '1234/56789',
+          tel: '(819) 840-2919',
           email: 'test@example.com'
         },
-        website: 'http://example.com'
+        type: "Restaurant"
       }, {
         id: 15,
-        name: 'Sport Event',
-        city: 'Kreuzberg',
-        district: 'Berlin',
-        street: 'Kurt-Schumacher-Str',
-        number: '17',
-        zip: '41515',
+        name: "La Maison de Débauche par le Carlito",
+        city: 'Trois-Rivière',
+        street: 'Rue des Forges',
+        number: '361',
+        zip: 'G9A 4S8',
+        lat: 46.341934,
+        lng: -72.543890,
         dates: [
-          'Monday: 9:00 AM',
-          'Sunday: 9:00 AM'
+          'Lundi: Fermé',
+          'Mardi: Fermé',
+          'Mercredi: Fermé',
+          'Jeudi: 11:00 AM - 3:00 AM',
+          'Vendredi: 11:00 AM - 3:00 AM',
+          'Samedi: 11:00 AM - 3:00 AM',
+          'Dimanche: 11:00 AM - 3:00 AM'
         ],
-        lat: 52.497492,
-        lng: 13.395252,
-        wheelchair: true,
-        wheelchairLift: true,
-        satTrans: true,
         contact: {
-          tel: '1234/56789',
+          tel: '(819) 694-4484',
           email: 'test@example.com'
         },
-        website: 'http://example.com'
+        type: "Bar"
       }, {
         id: 16,
-        name: 'Sport Event',
-        city: 'Charlottenburg',
-        district: 'Berlin',
-        street: 'Kurt-Schumacher-Str',
-        number: '17',
-        zip: '41515',
+        name: "Banh Thai Restaurant",
+        city: 'Trois-Rivière',
+        street: 'Boul Gene-H.-Kruger',
+        number: '4730',
+        zip: 'G9A 4N1',
+        lat: 46.324686,
+        lng: -72.565321,
         dates: [
-          'Monday: 9:00 AM',
-          'Sunday: 9:00 AM'
+          'Lundi: 8:00 AM - 9:00 PM',
+          'Mardi: 8:00 AM - 9:00 PM',
+          'Mercredi: 8:00 AM - 9:00 PM',
+          'Jeudi: 8:00 AM - 11:00 PM',
+          'Vendredi: 11:00 AM - 11:00 PM',
+          'Samedi: 11:00 AM - 11:00 PM',
+          'Dimanche: 11:00 AM - 9:00 PM'
         ],
-        lat: 52.515881,
-        lng: 13.295689,
-        wheelchair: true,
-        wheelchairLift: true,
-        satTrans: true,
         contact: {
-          tel: '1234/56789',
+          tel: '(819) 840-2833',
           email: 'test@example.com'
         },
-        website: 'http://example.com'
-      }, {
+        website: 'banhthai.ca',
+        type: "Restaurant"
+      },{
         id: 17,
-        name: 'Sport Event',
-        city: 'Schöneberg',
-        district: 'Berlin',
-        street: 'Kurt-Schumacher-Str',
-        number: '17',
-        zip: '41515',
+        name: "ELEPHANT",
+        city: 'Trois-Rivière',
+        street: 'Boulevard des Récollets',
+        number: '820',
+        zip: 'G8Z 3W2',
+        lat: 46.360328,
+        lng: -72.571055,
         dates: [
-          'Monday: 9:00 AM',
-          'Sunday: 9:00 AM'
+          'Lundi: Fermé',
+          'Mardi: Fermé',
+          'Mercredi: Fermé',
+          'Jeudi: 11:00 AM - 3:00 AM',
+          'Vendredi: 11:00 AM - 3:00 AM',
+          'Samedi: 11:00 AM - 3:00 AM',
+          'Dimanche: 11:00 AM - 3:00 AM'
         ],
-        lat: 52.480977,
-        lng: 13.369846,
-        wheelchair: true,
-        satTrans: true,
         contact: {
-          tel: '1234/56789',
+          tel: '(819) 840-6923',
           email: 'test@example.com'
         },
-        website: 'http://example.com'
-      }, {
+        type: "Bar"
+      },{
         id: 18,
-        name: 'Sport Event',
-        city: 'Marzahn',
-        district: 'Berlin',
-        street: 'Kurt-Schumacher-Str',
-        number: '17',
-        zip: '41515',
+        name: "Librairie Poirier",
+        city: 'Trois-Rivière',
+        street: 'Boulevard des Récollets',
+        number: '1374',
+        zip: 'G8Z 4L5',
+        lat: 46.353343,
+        lng: -72.578717,
         dates: [
-          'Monday: 9:00 AM',
-          'Sunday: 9:00 AM'
+          'Lundi: 8:00 AM - 9:00 PM',
+          'Mardi: 8:00 AM - 9:00 PM',
+          'Mercredi: 8:00 AM - 9:00 PM',
+          'Jeudi: 8:00 AM - 11:00 PM',
+          'Vendredi: 11:00 AM - 11:00 PM',
+          'Samedi: 11:00 AM - 11:00 PM',
+          'Dimanche: 11:00 AM - 9:00 PM'
         ],
-        lat: 52.549506,
-        lng: 13.555241,
-        wheelchair: true,
-        satTrans: true,
         contact: {
-          tel: '1234/56789',
+          tel: '(819) 379-8980',
           email: 'test@example.com'
         },
-        website: 'http://example.com'
-      }, {
+        website: 'librairiepoirier.ca',
+        type: "Autre"
+      },{
         id: 19,
-        name: 'Sport Event',
-        city: 'Marzahn',
-        district: 'Berlin',
-        street: 'Kurt-Schumacher-Str',
-        number: '17',
-        zip: '41515',
+        name: "L'Oriflamme",
+        city: 'Trois-Rivière',
+        street: 'Boulevard des Forges',
+        number: '1900',
+        zip: 'G8Z 0A3',
+        lat: 46.345672,
+        lng: -72.573886,
         dates: [
-          'Monday: 9:00 AM',
-          'Sunday: 9:00 AM'
+          'Lundi: Fermé',
+          'Mardi: Fermé',
+          'Mercredi: Fermé',
+          'Jeudi: 11:00 AM - 3:00 AM',
+          'Vendredi: 11:00 AM - 3:00 AM',
+          'Samedi: 11:00 AM - 3:00 AM',
+          'Dimanche: 11:00 AM - 3:00 AM'
         ],
-        lat: 52.549506,
-        lng: 13.555241,
-        wheelchair: true,
-        satTrans: true,
         contact: {
-          tel: '1234/56789',
+          tel: '(819) 694-4484',
           email: 'test@example.com'
         },
-        website: 'http://example.com'
-      }, {
+        type: "Bar"
+      },{
         id: 20,
-        name: 'Sport Event',
-        city: 'Marzahn',
-        district: 'Berlin',
-        street: 'Kurt-Schumacher-Str',
-        number: '17',
-        zip: '41515',
+        name: "Café Morgane",
+        city: 'Trois-Rivière',
+        street: 'Boulevard des Forges',
+        number: '3790',
+        zip: 'G8Y 4R2',
+        lat: 46.354528,
+        lng: -72.582336,
         dates: [
-          'Monday: 9:00 AM',
-          'Sunday: 9:00 AM'
+          'Lundi: 8:00 AM - 9:00 PM',
+          'Mardi: 8:00 AM - 9:00 PM',
+          'Mercredi: 8:00 AM - 9:00 PM',
+          'Jeudi: 8:00 AM - 11:00 PM',
+          'Vendredi: 11:00 AM - 11:00 PM',
+          'Samedi: 11:00 AM - 11:00 PM',
+          'Dimanche: 11:00 AM - 9:00 PM'
         ],
-        lat: 52.549506,
-        lng: 13.555241,
-        wheelchair: true,
-        satTrans: true,
         contact: {
-          tel: '1234/56789',
+          tel: '(819) 375-8821',
           email: 'test@example.com'
         },
-        website: 'http://example.com'
-      }, {
-        id: 21,
-        name: 'Sport Event',
-        city: 'Marzahn',
-        district: 'Berlin',
-        street: 'Kurt-Schumacher-Str',
-        number: '17',
-        zip: '41515',
-        dates: [
-          'Monday: 9:00 AM',
-          'Sunday: 9:00 AM'
-        ],
-        lat: 52.549506,
-        lng: 13.555241,
-        wheelchair: true,
-        satTrans: true,
-        contact: {
-          tel: '1234/56789',
-          email: 'test@example.com'
-        },
-        website: 'http://example.com'
-      }, {
-        id: 22,
-        name: 'Sport Event',
-        city: 'Marzahn',
-        district: 'Berlin',
-        street: 'Kurt-Schumacher-Str',
-        number: '17',
-        zip: '41515',
-        dates: [
-          'Monday: 9:00 AM',
-          'Sunday: 9:00 AM'
-        ],
-        lat: 52.549506,
-        lng: 13.555241,
-        wheelchair: true,
-        satTrans: true,
-        contact: {
-          tel: '1234/56789',
-          email: 'test@example.com'
-        },
-        website: 'http://example.com'
-      }, {
-        id: 23,
-        name: 'Sport Event',
-        city: 'Marzahn',
-        district: 'Berlin',
-        street: 'Kurt-Schumacher-Str',
-        number: '17',
-        zip: '41515',
-        dates: [
-          'Monday: 9:00 AM',
-          'Sunday: 9:00 AM'
-        ],
-        lat: 52.549506,
-        lng: 13.555241,
-        wheelchair: true,
-        satTrans: true,
-        contact: {
-          tel: '1234/56789',
-          email: 'test@example.com'
-        },
-        website: 'http://example.com'
-      }, {
-        id: 24,
-        name: 'Sport Event',
-        city: 'Marzahn',
-        district: 'Berlin',
-        street: 'Kurt-Schumacher-Str',
-        number: '17',
-        zip: '41515',
-        dates: [
-          'Monday: 9:00 AM',
-          'Sunday: 9:00 AM'
-        ],
-        lat: 52.549506,
-        lng: 13.555241,
-        wheelchair: true,
-        satTrans: true,
-        contact: {
-          tel: '1234/56789',
-          email: 'test@example.com'
-        },
-        website: 'http://example.com'
-      }, {
-        id: 25,
-        name: 'Sport Event',
-        city: 'Marzahn',
-        district: 'Berlin',
-        street: 'Kurt-Schumacher-Str',
-        number: '17',
-        zip: '41515',
-        dates: [
-          'Monday: 9:00 AM',
-          'Sunday: 9:00 AM'
-        ],
-        lat: 52.549506,
-        lng: 13.555241,
-        wheelchair: true,
-        satTrans: true,
-        contact: {
-          tel: '1234/56789',
-          email: 'test@example.com'
-        },
-        website: 'http://example.com'
-      }, {
-        id: 26,
-        name: 'Sport Event',
-        city: 'Marzahn',
-        district: 'Berlin',
-        street: 'Kurt-Schumacher-Str',
-        number: '17',
-        zip: '41515',
-        dates: [
-          'Monday: 9:00 AM',
-          'Sunday: 9:00 AM'
-        ],
-        lat: 52.549506,
-        lng: 13.555241,
-        wheelchair: true,
-        satTrans: true,
-        contact: {
-          tel: '1234/56789',
-          email: 'test@example.com'
-        },
-        website: 'http://example.com'
-      }, {
-        id: 27,
-        name: 'Sport Event',
-        city: 'Marzahn',
-        district: 'Berlin',
-        street: 'Kurt-Schumacher-Str',
-        number: '17',
-        zip: '41515',
-        dates: [
-          'Monday: 9:00 AM',
-          'Sunday: 9:00 AM'
-        ],
-        lat: 52.549506,
-        lng: 13.555241,
-        wheelchair: true,
-        satTrans: true,
-        contact: {
-          tel: '1234/56789',
-          email: 'test@example.com'
-        },
-        website: 'http://example.com'
-      }, {
-        id: 28,
-        name: 'Sport Event',
-        city: 'Marzahn',
-        district: 'Berlin',
-        street: 'Kurt-Schumacher-Str',
-        number: '17',
-        zip: '41515',
-        dates: [
-          'Monday: 9:00 AM',
-          'Sunday: 9:00 AM'
-        ],
-        lat: 52.549506,
-        lng: 13.555241,
-        wheelchair: true,
-        satTrans: true,
-        contact: {
-          tel: '1234/56789',
-          email: 'test@example.com'
-        },
-        website: 'http://example.com'
-      }, {
-        id: 29,
-        name: 'Sport Event',
-        city: 'Marzahn',
-        district: 'Berlin',
-        street: 'Kurt-Schumacher-Str',
-        number: '17',
-        zip: '41515',
-        dates: [
-          'Monday: 9:00 AM',
-          'Sunday: 9:00 AM'
-        ],
-        lat: 52.549506,
-        lng: 13.555241,
-        wheelchair: true,
-        satTrans: true,
-        contact: {
-          tel: '1234/56789',
-          email: 'test@example.com'
-        },
-        website: 'http://example.com'
-      }, {
-        id: 30,
-        name: 'Sport Event',
-        city: 'Marzahn',
-        district: 'Berlin',
-        street: 'Kurt-Schumacher-Str',
-        number: '17',
-        zip: '41515',
-        dates: [
-          'Monday: 9:00 AM',
-          'Sunday: 9:00 AM'
-        ],
-        lat: 52.549506,
-        lng: 13.555241,
-        wheelchair: true,
-        satTrans: true,
-        contact: {
-          tel: '1234/56789',
-          email: 'test@example.com'
-        },
-        website: 'http://example.com'
+        type: "Restaurant"
       }];
 
       this.pages = [{

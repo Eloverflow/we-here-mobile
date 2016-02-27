@@ -87,6 +87,15 @@ define([
           wheelChairLift: $scope.wheelChairLift
         });
       };
+      $scope.baseEventId = null;
+
+      $scope.$watch('baseEventId', function() {
+        if($scope.baseEventId != null){
+          eventService.getOne($scope.baseEventId).then(function (event) {
+            $scope.baseEvent = event;
+          });
+        }
+      });
 
       $scope.discoverWasHidden = false;
       $scope.showDiv = false;

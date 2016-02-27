@@ -1,5 +1,5 @@
 <ion-view>
-  <ion-nav-title>{{search}}</ion-nav-title>
+  <ion-nav-title>Oui Here <i class="icon ion-ios-location"></i></ion-nav-title>
   <ion-nav-buttons side="right">
     <button class="button button-clear icon" ng-disabled="loading" ng-class="{'ion-earth': show.list, 'ion-ios-list': !show.list}" ng-click="show.list = !show.list; switchDiscover()">
     </button>
@@ -26,12 +26,13 @@
     </div>
   </div>
   <div id="map" data-tap-disabled="true" google-map style="height:88%; width: 100%;" api-key="AIzaSyB16sGmIekuGIvYOfNoW9T44377IU2d2Es" events="events"></div>
+  <div id="map" data-tap-disabled="true" google-map style="height:88%; width: 100%;" api-key="AIzaSyB16sGmIekuGIvYOfNoW9T44377IU2d2Es" events="events" base-event-id="baseEventId"></div>
   <ion-item style="top: -25px;" ng-show="!show.list && baseEvent.id" ui-sref="detail({id: baseEvent.id})" class="item-royal item-avatar item-icon-right">
     <img ng-src="{{baseEvent.thumb}}">
     <h2>{{baseEvent.name}}</h2>
     <p>
-      <b>{{baseEvent.city}}</b> / District {{baseEvent.district}}<br>
-      {{baseEvent.street}} {{baseEvent.number}}, {{baseEvent.zip}} {{baseEvent.city}}
+      <b>{{baseEvent.type}}</b><br>
+      {{baseEvent.number}} {{baseEvent.street}}, {{baseEvent.zip}} {{baseEvent.city}}
     </p>
     <i class="icon ion-ios-arrow-right"></i>
   </ion-item>
@@ -44,8 +45,8 @@
             <img ng-src="{{event.thumb}}">
             <h2>{{event.name}}</h2>
             <p>
-              <b>{{event.city}}</b> / District {{event.district}}<br>
-              {{event.street}} {{event.number}}, {{event.zip}} {{event.city}}
+              <b>{{event.type}}</b><br>
+              {{event.number}} {{event.street}}, {{event.zip}} {{event.city}}
             </p>
             <i class="icon ion-ios-arrow-right"></i>
           </ion-item>

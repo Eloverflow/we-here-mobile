@@ -11,7 +11,8 @@ define([
       return {
         scope: {
           events: '=',
-          apiKey: '@'
+          apiKey: '@',
+          baseEventId: "="
         },
         restrict: 'A',
         link: function (scope, element) {
@@ -21,9 +22,8 @@ define([
 
           function addClick(marker, id) {
             $window.google.maps.event.addListener(marker, 'click', function () {
-              $state.go('detail', {
-                id: id
-              });
+              scope.baseEventId = id;
+              scope.$apply();
             });
           }
 
