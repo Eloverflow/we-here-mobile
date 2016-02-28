@@ -46,6 +46,10 @@ define([
             comment: "Très agréable. L'endroit idéal pour s'arrêter prendre une bière avec des amis. Par contre le menu est assez restreint et peut ne pas convenir à tous les goûts. Très bien cuisiné toutefois"
           }
         ],
+        promotions: [
+          "Première bière gratuite!",
+          "Obtenez 10% de rabais en présentant votre carte étudiante."
+        ],
         "filters": ["Bar","Tard", "Nuit blanche"]
       }, {
         id: 2,
@@ -88,6 +92,10 @@ define([
             comment: "Très agréable. L'endroit idéal pour s'arrêter prendre une bière avec des amis. Par contre le menu est assez restreint et peut ne pas convenir à tous les goûts. Très bien cuisiné toutefois"
           }
         ],
+        promotions: [
+          "Première bière gratuite!",
+          "Obtenez 10% de rabais en présentant votre carte étudiante."
+        ],
         "filters": ["Bar","Tard", "Nuit blanche"]
       }, {
         id: 3,
@@ -128,6 +136,10 @@ define([
             "name": "Antoine Chené-Côté",
             comment: "Très agréable. L'endroit idéal pour s'arrêter prendre une bière avec des amis. Par contre le menu est assez restreint et peut ne pas convenir à tous les goûts. Très bien cuisiné toutefois"
           }
+        ],
+        promotions: [
+          "15 % de rabais sur l'ensemble du menu à la carte.",
+          "Obtenez GRATUITEMENT une entrée, applicable à l'achat d'un repas"
         ],
         "filters": ["Restaurant","Tôt", "Déjeuner"]
       }, {
@@ -170,6 +182,10 @@ define([
             comment: "Très agréable. L'endroit idéal pour s'arrêter prendre une bière avec des amis. Par contre le menu est assez restreint et peut ne pas convenir à tous les goûts. Très bien cuisiné toutefois"
           }
         ],
+        promotions: [
+        "15 % de rabais sur l'ensemble du menu à la carte.",
+        "Obtenez GRATUITEMENT une entrée, applicable à l'achat d'un repas"
+      ],
         "filters": ["Restaurant","Sushi", "Diner", "Souper"]
       }, {
         id: 5,
@@ -210,6 +226,10 @@ define([
             "name": "Antoine Chené-Côté",
             comment: "Très agréable. L'endroit idéal pour s'arrêter prendre une bière avec des amis. Par contre le menu est assez restreint et peut ne pas convenir à tous les goûts. Très bien cuisiné toutefois"
           }
+        ],
+        promotions: [
+          "Première bière gratuite!",
+          "Obtenez 10% de rabais en présentant votre carte étudiante."
         ],
         "filters": ["Restaurant","Souper"]
       }, {
@@ -253,6 +273,10 @@ define([
             comment: "Très agréable. L'endroit idéal pour s'arrêter prendre une bière avec des amis. Par contre le menu est assez restreint et peut ne pas convenir à tous les goûts. Très bien cuisiné toutefois"
           }
         ],
+        promotions: [
+          "15 % de rabais sur l'ensemble du menu à la carte.",
+          "Obtenez GRATUITEMENT une entrée, applicable à l'achat d'un repas"
+        ],
         "filters": ["Restaurant","Thaï", "Souper"]
       },{
         id: 7,
@@ -293,6 +317,10 @@ define([
             "name": "Antoine Chené-Côté",
             comment: "Très agréable. L'endroit idéal pour s'arrêter prendre une bière avec des amis. Par contre le menu est assez restreint et peut ne pas convenir à tous les goûts. Très bien cuisiné toutefois"
           }
+        ],
+        promotions: [
+          "Première bière gratuite!",
+          "Obtenez 10% de rabais en présentant votre carte étudiante."
         ],
         "filters": ["Restaurant","Indien"]
       },{
@@ -336,6 +364,9 @@ define([
             comment: "Très agréable. L'endroit idéal pour s'arrêter prendre une bière avec des amis. Par contre le menu est assez restreint et peut ne pas convenir à tous les goûts. Très bien cuisiné toutefois"
           }
         ],
+        promotions: [
+          "15% de rabais"
+        ],
         "filters": ["Étudier"]
       },{
         id: 9,
@@ -377,6 +408,10 @@ define([
             comment: "Très agréable. L'endroit idéal pour s'arrêter prendre une bière avec des amis. Par contre le menu est assez restreint et peut ne pas convenir à tous les goûts. Très bien cuisiné toutefois"
           }
         ],
+        promotions: [
+          "15 % de rabais sur l'ensemble du menu à la carte.",
+          "Obtenez GRATUITEMENT une entrée, applicable à l'achat d'un repas"
+        ],
         "filters": ["Restaurant", "Sport", "Souper"]
       },{
         id: 10,
@@ -417,6 +452,9 @@ define([
             "name": "Antoine Chené-Côté",
             comment: "Très agréable. L'endroit idéal pour s'arrêter prendre une bière avec des amis. Par contre le menu est assez restreint et peut ne pas convenir à tous les goûts. Très bien cuisiné toutefois"
           }
+        ],
+        promotions: [
+          "Du café tout simplement délicieux et rapide! À partir de 35$ pour 100 capsules de café ou de thé Lavica riche en saveurs et compatible Nespresso©"
         ],
         "filters": ["Café","matin", "Après-midi"]
       },{
@@ -460,6 +498,10 @@ define([
             comment: "Très agréable. L'endroit idéal pour s'arrêter prendre une bière avec des amis. Par contre le menu est assez restreint et peut ne pas convenir à tous les goûts. Très bien cuisiné toutefois"
           }
         ],
+        promotions: [
+          "Première bière gratuite!",
+          "Obtenez 10% de rabais en présentant votre carte étudiante."
+        ],
         "filters": ["Bar","Tard"]
       }, {
         id: 12,
@@ -502,6 +544,10 @@ define([
             comment: "Très agréable. L'endroit idéal pour s'arrêter prendre une bière avec des amis. Par contre le menu est assez restreint et peut ne pas convenir à tous les goûts. Très bien cuisiné toutefois"
           }
         ],
+        promotions: [
+          "Première bière gratuite!",
+          "Obtenez 10% de rabais en présentant votre carte étudiante."
+        ],
         "filters": ["Bar","Tard", "Nuit blanche"]
       }, {
         id: 13,
@@ -542,6 +588,10 @@ define([
             "name": "Antoine Chené-Côté",
             comment: "Très agréable. L'endroit idéal pour s'arrêter prendre une bière avec des amis. Par contre le menu est assez restreint et peut ne pas convenir à tous les goûts. Très bien cuisiné toutefois"
           }
+        ],
+        promotions: [
+          "15 % de rabais sur l'ensemble du menu à la carte.",
+          "Obtenez GRATUITEMENT une entrée, applicable à l'achat d'un repas"
         ],
         "filters": ["Restaurant","Souper"]
       }, {
@@ -584,6 +634,10 @@ define([
             comment: "Très agréable. L'endroit idéal pour s'arrêter prendre une bière avec des amis. Par contre le menu est assez restreint et peut ne pas convenir à tous les goûts. Très bien cuisiné toutefois"
           }
         ],
+        promotions: [
+          "15 % de rabais sur l'ensemble du menu à la carte.",
+          "Obtenez GRATUITEMENT une entrée, applicable à l'achat d'un repas"
+        ],
         "filters": ["Restaurant","Souper"]
       }, {
         id: 15,
@@ -624,6 +678,10 @@ define([
             "name": "Antoine Chené-Côté",
             comment: "Très agréable. L'endroit idéal pour s'arrêter prendre une bière avec des amis. Par contre le menu est assez restreint et peut ne pas convenir à tous les goûts. Très bien cuisiné toutefois"
           }
+        ],
+        promotions: [
+          "Première bière gratuite!",
+          "Obtenez 10% de rabais en présentant votre carte étudiante."
         ],
         "filters": ["Restaurant","Souper"]
       }, {
@@ -667,6 +725,10 @@ define([
             comment: "Très agréable. L'endroit idéal pour s'arrêter prendre une bière avec des amis. Par contre le menu est assez restreint et peut ne pas convenir à tous les goûts. Très bien cuisiné toutefois"
           }
         ],
+        promotions: [
+          "15 % de rabais sur l'ensemble du menu à la carte.",
+          "Obtenez GRATUITEMENT une entrée, applicable à l'achat d'un repas"
+        ],
         "filters": ["Restaurant","Souper"]
       },{
         id: 17,
@@ -707,6 +769,10 @@ define([
             "name": "Antoine Chené-Côté",
             comment: "Très agréable. L'endroit idéal pour s'arrêter prendre une bière avec des amis. Par contre le menu est assez restreint et peut ne pas convenir à tous les goûts. Très bien cuisiné toutefois"
           }
+        ],
+        promotions: [
+          "Première bière gratuite!",
+          "Obtenez 10% de rabais en présentant votre carte étudiante."
         ],
         "filters": ["Restaurant","Souper"]
       },{
@@ -750,6 +816,9 @@ define([
             comment: "Très agréable. L'endroit idéal pour s'arrêter prendre une bière avec des amis. Par contre le menu est assez restreint et peut ne pas convenir à tous les goûts. Très bien cuisiné toutefois"
           }
         ],
+        promotions: [
+          "15% de rabais"
+        ],
         "filters": ["Étudier"]
       },{
         id: 19,
@@ -791,6 +860,10 @@ define([
             comment: "Très agréable. L'endroit idéal pour s'arrêter prendre une bière avec des amis. Par contre le menu est assez restreint et peut ne pas convenir à tous les goûts. Très bien cuisiné toutefois"
           }
         ],
+        promotions: [
+          "Première bière gratuite!",
+          "Obtenez 10% de rabais en présentant votre carte étudiante."
+        ],
         "filters": ["Restaurant","Souper"]
       },{
         id: 20,
@@ -831,6 +904,9 @@ define([
             "name": "Antoine Chené-Côté",
             comment: "Très agréable. L'endroit idéal pour s'arrêter prendre une bière avec des amis. Par contre le menu est assez restreint et peut ne pas convenir à tous les goûts. Très bien cuisiné toutefois"
           }
+        ],
+        promotions: [
+          "Du café tout simplement délicieux et rapide! À partir de 35$ pour 100 capsules de café ou de thé Lavica riche en saveurs et compatible Nespresso©"
         ],
         "filters": ["Restaurant","Souper"]
       }];
