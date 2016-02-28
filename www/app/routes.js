@@ -38,7 +38,11 @@ define([
           url: '/filter',
           controller: 'FilterCtrl',
           templateUrl: 'app/templates/filter.html'
-        });
+        })
+        .state('care', {
+        url: '/oui-care',
+        templateUrl: 'app/templates/oui-care.html'
+      });
     }
   ]);
 });
