@@ -14,7 +14,9 @@ define([
     '$ionicModal',
     '$ionicScrollDelegate',
     '$sce',
-    function ($scope, $stateParams, $window, $ionicPopup, eventService, $ionicModal, $ionicScrollDelegate, $sce) {
+    '$ionicLoading',
+    function ($scope, $stateParams, $window, $ionicPopup, eventService, $ionicModal, $ionicScrollDelegate, $sce, $ionicLoading) {
+
       $scope.loading = true;
       eventService.getOne($stateParams.id).then(function (event) {
         $scope.event = event;
