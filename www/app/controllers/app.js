@@ -61,4 +61,7 @@ define([
       };
     }
   ]);
+
 });
+
+angular.module('app', ['ngAnimate']);
