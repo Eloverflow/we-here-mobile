@@ -97,7 +97,7 @@ define([
           } else {
             deferred.reject();
           }
-        }, 1000);
+        }, 0);
 
         return deferred.promise;
       };
