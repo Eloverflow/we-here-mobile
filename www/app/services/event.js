@@ -19,7 +19,11 @@ define([
             i = 0;
 
 
-        var filters = window.localStorage['filters'].split(",");
+        var filters = [];
+
+        if(window.localStorage['filters'] != null) {
+          filters =window.localStorage['filters'].split(",");
+        }
 
         for (i; i < events.length; i = i + 1) {
           currentEvent = events[i];
