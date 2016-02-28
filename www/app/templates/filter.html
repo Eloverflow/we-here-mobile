@@ -1,57 +1,23 @@
 <ion-view>
-  <ion-nav-title>Filtres<i class="icon ion-ios-location"></i></ion-nav-title>
+  <ion-nav-title>Filtres</ion-nav-title>
   <ion-content>
-    <br>
-    <br>
-    <br>
     <ion-list>
-      <div>
-        <ion-item class="item-stable"
-                  ng-click="toggleGroup(categories)"
-                  ng-class="{active: isGroupShown(categories)}">
-          <i class="icon" ng-class="isGroupShown(categories) ? 'ion-minus' : 'ion-plus'"></i>
-          &nbsp;
-          Catégorie
-        </ion-item>
-        <ion-item class="item-accordion"
-                  ng-repeat="item in categories.items"
-                  ng-show="isGroupShown(categories)">
-          {{item}}
-        </ion-item>
-      </div>
+      <ion-item class="item-divider"><b>Catégories</b></ion-item>
+      <button ng-click="category.isActive = !category.isActive" ng-class="category.isActive ? 'active' : ''" class="button button-outline button-balanced" ng-repeat="category in categories" style="margin: 10px;">
+        {{category.name}}
+      </button>
     </ion-list>
     <ion-list>
-      <div>
-        <ion-item class="item-stable"
-                  ng-click="toggleGroup(moods)"
-                  ng-class="{active: isGroupShown(moods)}">
-          <i class="icon" ng-class="isGroupShown(moods) ? 'ion-minus' : 'ion-plus'"></i>
-          &nbsp;
-          Humeur
-        </ion-item>
-        <ion-item class="item-accordion"
-                  ng-repeat="item in moods.items"
-                  ng-show="isGroupShown(moods)">
-          {{item}}
-        </ion-item>
-      </div>
+      <ion-item class="item-divider"><b>Humeur</b></ion-item>
+      <button ng-click="mood.isActive = !mood.isActive" ng-class="mood.isActive ? 'active' : ''" class="button button-outline button-balanced" ng-repeat="mood in moods" style="margin: 10px;">
+        {{mood.name}}
+      </button>
     </ion-list>
     <ion-list>
-      <div>
-        <ion-item class="item-stable"
-                  ng-click="toggleGroup(activities)"
-                  ng-class="{active: isGroupShown(activities)}">
-          <i class="icon" ng-class="isGroupShown(activities) ? 'ion-minus' : 'ion-plus'"></i>
-          &nbsp;
-          Activité
-        </ion-item>
-        <ion-item class="item-accordion"
-                  ng-repeat="item in activities.items"
-                  ng-show="isGroupShown(activities)">
-          {{item}}
-        </ion-item>
-      </div>
+      <ion-item class="item-divider"><b>Période</b></ion-item>
+      <button ng-click="time.isActive = !time.isActive" ng-class="time.isActive ? 'active' : ''" class="button button-outline button-balanced" ng-repeat="time in times" style="margin: 10px;">
+        {{time.name}}
+      </button>
     </ion-list>
-
   </ion-content>
 </ion-view>

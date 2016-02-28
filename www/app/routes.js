@@ -4,7 +4,8 @@ define([
   'controllers/app',
   'controllers/dashboard',
   'controllers/results',
-  'controllers/detail'
+  'controllers/detail',
+  'controllers/filter'
 ], function (app) {
   'use strict';
   // definition of routes

@@ -827,25 +827,135 @@ define([
         icon: 'ion-paper-airplane'
       }];
 
-      this.filters = [{
-        name: 'micro-brasserie',
-        type: 'catégorie'
-      },{
-        name: 'discotheque',
-        type: 'catégorie'
-      },{
-        name: 'dancer',
-        type: 'activité'
-      },{
-        name: 'boire un verre',
-        type: 'activité'
-      },{
-        name: 'social',
-        type: 'humeur'
-      },{
-        name: '',
-        type: 'humeur'
-      }];
+      this.categories = [
+        {
+          name: "Bar",
+          isActive: true
+        },
+        {
+          name: "Restaurant",
+          isActive: true
+        },
+        {
+          name: "Bistro",
+          isActive: true
+        },
+        {
+          name: "Musique",
+          isActive: true
+        },
+        {
+          name: "Cinéma",
+          isActive: true
+        },
+        {
+          name: "Théâtre",
+          isActive: true
+        },
+        {
+          name: "Sports",
+          isActive: true
+        },
+        {
+          name: "Artistique",
+          isActive: true
+        },
+        {
+          name: "Sushi",
+          isActive: true
+        },
+        {
+          name: "Thaï",
+          isActive: true
+        },
+        {
+          name: "Indien",
+          isActive: true
+        },
+        {
+          name: "Crèmerie",
+          isActive: true
+        },
+        {
+          name: "Enfant",
+          isActive: true
+        },
+        {
+          name: "Autre",
+          isActive: true
+        }
+      ];
+      this.moods = [
+        {
+          name: "Social",
+          isActive: true
+        },
+        {
+          name: "Boire un verre",
+          isActive: true
+        },
+        {
+          name: "Étudier",
+          isActive: true
+        },
+        {
+          name: "Dancer",
+          isActive: true
+        },
+        {
+          name: "Relax",
+          isActive: true
+        },
+        {
+          name: "Discuter",
+          isActive: true
+        },
+        {
+          name: "Nostalgie",
+          isActive: true
+        }
+      ];
+      this.times = [
+        {
+          name: "Ce soir",
+          isActive: true
+        },
+        {
+          name: "Demain AM",
+          isActive: true
+        },
+        {
+          name: "Demain PM",
+          isActive: true
+        },
+        {
+          name: "Cette semaine",
+          isActive: true
+        },
+        {
+          name: "Fin de semaine prochaine",
+          isActive: true
+        },
+        {
+          name: "Matin",
+          isActive: true
+        },
+        {
+          name: "Après-midi",
+          isActive: true
+        },
+        {
+          name: "Soir",
+          isActive: true
+        },
+        {
+          name: "Tôt le matin",
+          isActive: true
+        },
+        {
+          name: "Nuit blanche",
+          isActive: true
+        }];
     }
   ]);
 });
