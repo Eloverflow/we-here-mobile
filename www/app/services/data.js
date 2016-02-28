@@ -44,11 +44,9 @@ define([
             "rate": 4,
             "name": "Antoine Chené-Côté",
             comment: "Très agréable. L'endroit idéal pour s'arrêter prendre une bière avec des amis. Par contre le menu est assez restreint et peut ne pas convenir à tous les goûts. Très bien cuisiné toutefois"
-          },
-          {
-            "filters": ["Bar","Tard", "Nuit blanche"]
           }
-        ]
+        ],
+        "filters": ["Bar","Tard", "Nuit blanche"]
       }, {
         id: 2,
         name: "Gambrinus Brasserie Artisanale",
@@ -88,11 +86,9 @@ define([
             "rate": 4,
             "name": "Antoine Chené-Côté",
             comment: "Très agréable. L'endroit idéal pour s'arrêter prendre une bière avec des amis. Par contre le menu est assez restreint et peut ne pas convenir à tous les goûts. Très bien cuisiné toutefois"
-          },
-          {
-            "filters": ["Bar","Tard", "Nuit blanche"]
           }
-        ]
+        ],
+        "filters": ["Bar","Tard", "Nuit blanche"]
       }, {
         id: 3,
         name: "Crêperie Dc",
@@ -131,11 +127,9 @@ define([
             "rate": 4,
             "name": "Antoine Chené-Côté",
             comment: "Très agréable. L'endroit idéal pour s'arrêter prendre une bière avec des amis. Par contre le menu est assez restreint et peut ne pas convenir à tous les goûts. Très bien cuisiné toutefois"
-          },
-          {
-            "filters": ["Restaurant","Tôt", "Déjeuner"]
           }
-        ]
+        ],
+        "filters": ["Restaurant","Tôt", "Déjeuner"]
       }, {
         id: 4,
         name: "Sushizo",
@@ -174,11 +168,9 @@ define([
             "rate": 4,
             "name": "Antoine Chené-Côté",
             comment: "Très agréable. L'endroit idéal pour s'arrêter prendre une bière avec des amis. Par contre le menu est assez restreint et peut ne pas convenir à tous les goûts. Très bien cuisiné toutefois"
-          },
-          {
-            "filters": ["Restaurant","Sushi", "Diner", "Souper"]
           }
-        ]
+        ],
+        "filters": ["Restaurant","Sushi", "Diner", "Souper"]
       }, {
         id: 5,
         name: "La Maison de Débauche par le Carlito",
@@ -217,11 +209,9 @@ define([
             "rate": 4,
             "name": "Antoine Chené-Côté",
             comment: "Très agréable. L'endroit idéal pour s'arrêter prendre une bière avec des amis. Par contre le menu est assez restreint et peut ne pas convenir à tous les goûts. Très bien cuisiné toutefois"
-          },
-          {
-            "filters": ["Restaurant","Souper"]
           }
-        ]
+        ],
+        "filters": ["Restaurant","Souper"]
       }, {
         id: 6,
         name: "Banh Thai Restaurant",
@@ -261,11 +251,9 @@ define([
             "rate": 4,
             "name": "Antoine Chené-Côté",
             comment: "Très agréable. L'endroit idéal pour s'arrêter prendre une bière avec des amis. Par contre le menu est assez restreint et peut ne pas convenir à tous les goûts. Très bien cuisiné toutefois"
-          },
-          {
-            "filters": ["Restaurant","Thaï", "Souper"]
           }
-        ]
+        ],
+        "filters": ["Restaurant","Thaï", "Souper"]
       },{
         id: 7,
         name: "ELEPHANT",
@@ -304,11 +292,9 @@ define([
             "rate": 4,
             "name": "Antoine Chené-Côté",
             comment: "Très agréable. L'endroit idéal pour s'arrêter prendre une bière avec des amis. Par contre le menu est assez restreint et peut ne pas convenir à tous les goûts. Très bien cuisiné toutefois"
-          },
-          {
-            "filters": ["Restaurant","Indien"]
           }
-        ]
+        ],
+        "filters": ["Restaurant","Indien"]
       },{
         id: 8,
         name: "Librairie Poirier",
@@ -348,11 +334,9 @@ define([
             "rate": 4,
             "name": "Antoine Chené-Côté",
             comment: "Très agréable. L'endroit idéal pour s'arrêter prendre une bière avec des amis. Par contre le menu est assez restreint et peut ne pas convenir à tous les goûts. Très bien cuisiné toutefois"
-          },
-          {
-            "filters": ["Étudier"]
           }
-        ]
+        ],
+        "filters": ["Étudier"]
       },{
         id: 9,
         name: "L'Oriflamme",
@@ -391,11 +375,9 @@ define([
             "rate": 4,
             "name": "Antoine Chené-Côté",
             comment: "Très agréable. L'endroit idéal pour s'arrêter prendre une bière avec des amis. Par contre le menu est assez restreint et peut ne pas convenir à tous les goûts. Très bien cuisiné toutefois"
-          },
-          {
-            "filters": ["Restaurant", "Sport", "Souper"]
           }
-        ]
+        ],
+        "filters": ["Restaurant", "Sport", "Souper"]
       },{
         id: 10,
         name: "Café Morgane",
@@ -434,11 +416,9 @@ define([
             "rate": 4,
             "name": "Antoine Chené-Côté",
             comment: "Très agréable. L'endroit idéal pour s'arrêter prendre une bière avec des amis. Par contre le menu est assez restreint et peut ne pas convenir à tous les goûts. Très bien cuisiné toutefois"
-          },
-          {
-            "filters": ["Café","matin", "Après-midi"]
           }
-        ]
+        ],
+        "filters": ["Café","matin", "Après-midi"]
       },{
         id: 11,
         name: "Le temps d'une pinte",
@@ -478,11 +458,9 @@ define([
             "rate": 4,
             "name": "Antoine Chené-Côté",
             comment: "Très agréable. L'endroit idéal pour s'arrêter prendre une bière avec des amis. Par contre le menu est assez restreint et peut ne pas convenir à tous les goûts. Très bien cuisiné toutefois"
-          },
-          {
-            "filters": ["Bar","Tard"]
           }
-        ]
+        ],
+        "filters": ["Bar","Tard"]
       }, {
         id: 12,
         name: "Gambrinus Brasserie Artisanale",
@@ -522,11 +500,9 @@ define([
             "rate": 4,
             "name": "Antoine Chené-Côté",
             comment: "Très agréable. L'endroit idéal pour s'arrêter prendre une bière avec des amis. Par contre le menu est assez restreint et peut ne pas convenir à tous les goûts. Très bien cuisiné toutefois"
-          },
-          {
-            "filters": ["Bar","Tard", "Nuit blanche"]
           }
-        ]
+        ],
+        "filters": ["Bar","Tard", "Nuit blanche"]
       }, {
         id: 13,
         name: "Crêperie Dc",
