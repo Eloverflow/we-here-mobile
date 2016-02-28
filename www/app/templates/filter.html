@@ -1,0 +1,23 @@
+<ion-view>
+  <ion-nav-title>Filtres</ion-nav-title>
+  <ion-content>
+    <ion-list>
+      <ion-item class="item-divider"><b>Catégories</b></ion-item>
+      <button ng-click="toggleCategory(category)" ng-class="category.isActive ? 'active' : ''" class="button button-outline button-balanced" ng-repeat="category in categories" style="margin: 10px;">
+        {{category.name}}
+      </button>
+    </ion-list>
+    <ion-list>
+      <ion-item class="item-divider"><b>Humeur</b></ion-item>
+      <button ng-click="toggleMood(mood)" ng-class="mood.isActive ? 'active' : ''" class="button button-outline button-balanced" ng-repeat="mood in moods" style="margin: 10px;">
+        {{mood.name}}
+      </button>
+    </ion-list>
+    <ion-list>
+      <ion-item class="item-divider"><b>Période</b></ion-item>
+      <button ng-click="toggleTime(time)" ng-class="time.isActive ? 'active' : ''" class="button button-outline button-balanced" ng-repeat="time in times" style="margin: 10px;">
+        {{time.name}}
+      </button>
+    </ion-list>
+  </ion-content>
+</ion-view>

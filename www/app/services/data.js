@@ -27,7 +27,7 @@ define([
           tel: '(819) 691-3371',
           email: 'test@example.com'
         },
-        website: 'letempsdunepinte.ca',
+        website: 'http://www.letempsdunepinte.ca',
         type: "Bar",
         ratings: [
           {
@@ -45,7 +45,8 @@ define([
             "name": "Antoine Chené-Côté",
             comment: "Très agréable. L'endroit idéal pour s'arrêter prendre une bière avec des amis. Par contre le menu est assez restreint et peut ne pas convenir à tous les goûts. Très bien cuisiné toutefois"
           }
-        ]
+        ],
+        "filters": ["Bar","Tard", "Nuit blanche"]
       }, {
         id: 2,
         name: "Gambrinus Brasserie Artisanale",
@@ -86,7 +87,8 @@ define([
             "name": "Antoine Chené-Côté",
             comment: "Très agréable. L'endroit idéal pour s'arrêter prendre une bière avec des amis. Par contre le menu est assez restreint et peut ne pas convenir à tous les goûts. Très bien cuisiné toutefois"
           }
-        ]
+        ],
+        "filters": ["Bar","Tard", "Nuit blanche"]
       }, {
         id: 3,
         name: "Crêperie Dc",
@@ -126,7 +128,8 @@ define([
             "name": "Antoine Chené-Côté",
             comment: "Très agréable. L'endroit idéal pour s'arrêter prendre une bière avec des amis. Par contre le menu est assez restreint et peut ne pas convenir à tous les goûts. Très bien cuisiné toutefois"
           }
-        ]
+        ],
+        "filters": ["Restaurant","Tôt", "Déjeuner"]
       }, {
         id: 4,
         name: "Sushizo",
@@ -166,7 +169,8 @@ define([
             "name": "Antoine Chené-Côté",
             comment: "Très agréable. L'endroit idéal pour s'arrêter prendre une bière avec des amis. Par contre le menu est assez restreint et peut ne pas convenir à tous les goûts. Très bien cuisiné toutefois"
           }
-        ]
+        ],
+        "filters": ["Restaurant","Sushi", "Diner", "Souper"]
       }, {
         id: 5,
         name: "La Maison de Débauche par le Carlito",
@@ -206,7 +210,8 @@ define([
             "name": "Antoine Chené-Côté",
             comment: "Très agréable. L'endroit idéal pour s'arrêter prendre une bière avec des amis. Par contre le menu est assez restreint et peut ne pas convenir à tous les goûts. Très bien cuisiné toutefois"
           }
-        ]
+        ],
+        "filters": ["Restaurant","Souper"]
       }, {
         id: 6,
         name: "Banh Thai Restaurant",
@@ -229,7 +234,7 @@ define([
           tel: '(819) 840-2833',
           email: 'test@example.com'
         },
-        website: 'banhthai.ca',
+        website: 'http://www.banhthai.ca',
         type: "Restaurant",
         ratings: [
           {
@@ -247,7 +252,8 @@ define([
             "name": "Antoine Chené-Côté",
             comment: "Très agréable. L'endroit idéal pour s'arrêter prendre une bière avec des amis. Par contre le menu est assez restreint et peut ne pas convenir à tous les goûts. Très bien cuisiné toutefois"
           }
-        ]
+        ],
+        "filters": ["Restaurant","Thaï", "Souper"]
       },{
         id: 7,
         name: "ELEPHANT",
@@ -287,7 +293,8 @@ define([
             "name": "Antoine Chené-Côté",
             comment: "Très agréable. L'endroit idéal pour s'arrêter prendre une bière avec des amis. Par contre le menu est assez restreint et peut ne pas convenir à tous les goûts. Très bien cuisiné toutefois"
           }
-        ]
+        ],
+        "filters": ["Restaurant","Indien"]
       },{
         id: 8,
         name: "Librairie Poirier",
@@ -310,7 +317,7 @@ define([
           tel: '(819) 379-8980',
           email: 'test@example.com'
         },
-        website: 'librairiepoirier.ca',
+        website: 'http://www.librairiepoirier.ca',
         type: "Autre",
         ratings: [
           {
@@ -328,7 +335,8 @@ define([
             "name": "Antoine Chené-Côté",
             comment: "Très agréable. L'endroit idéal pour s'arrêter prendre une bière avec des amis. Par contre le menu est assez restreint et peut ne pas convenir à tous les goûts. Très bien cuisiné toutefois"
           }
-        ]
+        ],
+        "filters": ["Étudier"]
       },{
         id: 9,
         name: "L'Oriflamme",
@@ -368,7 +376,8 @@ define([
             "name": "Antoine Chené-Côté",
             comment: "Très agréable. L'endroit idéal pour s'arrêter prendre une bière avec des amis. Par contre le menu est assez restreint et peut ne pas convenir à tous les goûts. Très bien cuisiné toutefois"
           }
-        ]
+        ],
+        "filters": ["Restaurant", "Sport", "Souper"]
       },{
         id: 10,
         name: "Café Morgane",
@@ -408,7 +417,8 @@ define([
             "name": "Antoine Chené-Côté",
             comment: "Très agréable. L'endroit idéal pour s'arrêter prendre une bière avec des amis. Par contre le menu est assez restreint et peut ne pas convenir à tous les goûts. Très bien cuisiné toutefois"
           }
-        ]
+        ],
+        "filters": ["Café","matin", "Après-midi"]
       },{
         id: 11,
         name: "Le temps d'une pinte",
@@ -431,7 +441,7 @@ define([
           tel: '(819) 691-3371',
           email: 'test@example.com'
         },
-        website: 'letempsdunepinte.ca',
+        website: 'http://www.letempsdunepinte.ca',
         type: "Bar",
         ratings: [
           {
@@ -449,7 +459,8 @@ define([
             "name": "Antoine Chené-Côté",
             comment: "Très agréable. L'endroit idéal pour s'arrêter prendre une bière avec des amis. Par contre le menu est assez restreint et peut ne pas convenir à tous les goûts. Très bien cuisiné toutefois"
           }
-        ]
+        ],
+        "filters": ["Bar","Tard"]
       }, {
         id: 12,
         name: "Gambrinus Brasserie Artisanale",
@@ -490,7 +501,8 @@ define([
             "name": "Antoine Chené-Côté",
             comment: "Très agréable. L'endroit idéal pour s'arrêter prendre une bière avec des amis. Par contre le menu est assez restreint et peut ne pas convenir à tous les goûts. Très bien cuisiné toutefois"
           }
-        ]
+        ],
+        "filters": ["Bar","Tard", "Nuit blanche"]
       }, {
         id: 13,
         name: "Crêperie Dc",
@@ -530,7 +542,8 @@ define([
             "name": "Antoine Chené-Côté",
             comment: "Très agréable. L'endroit idéal pour s'arrêter prendre une bière avec des amis. Par contre le menu est assez restreint et peut ne pas convenir à tous les goûts. Très bien cuisiné toutefois"
           }
-        ]
+        ],
+        "filters": ["Restaurant","Souper"]
       }, {
         id: 14,
         name: "Sushizo",
@@ -570,7 +583,8 @@ define([
             "name": "Antoine Chené-Côté",
             comment: "Très agréable. L'endroit idéal pour s'arrêter prendre une bière avec des amis. Par contre le menu est assez restreint et peut ne pas convenir à tous les goûts. Très bien cuisiné toutefois"
           }
-        ]
+        ],
+        "filters": ["Restaurant","Souper"]
       }, {
         id: 15,
         name: "La Maison de Débauche par le Carlito",
@@ -610,7 +624,8 @@ define([
             "name": "Antoine Chené-Côté",
             comment: "Très agréable. L'endroit idéal pour s'arrêter prendre une bière avec des amis. Par contre le menu est assez restreint et peut ne pas convenir à tous les goûts. Très bien cuisiné toutefois"
           }
-        ]
+        ],
+        "filters": ["Restaurant","Souper"]
       }, {
         id: 16,
         name: "Banh Thai Restaurant",
@@ -633,7 +648,7 @@ define([
           tel: '(819) 840-2833',
           email: 'test@example.com'
         },
-        website: 'banhthai.ca',
+        website: 'http://www.banhthai.ca',
         type: "Restaurant",
         ratings: [
           {
@@ -651,7 +666,8 @@ define([
             "name": "Antoine Chené-Côté",
             comment: "Très agréable. L'endroit idéal pour s'arrêter prendre une bière avec des amis. Par contre le menu est assez restreint et peut ne pas convenir à tous les goûts. Très bien cuisiné toutefois"
           }
-        ]
+        ],
+        "filters": ["Restaurant","Souper"]
       },{
         id: 17,
         name: "ELEPHANT",
@@ -691,7 +707,8 @@ define([
             "name": "Antoine Chené-Côté",
             comment: "Très agréable. L'endroit idéal pour s'arrêter prendre une bière avec des amis. Par contre le menu est assez restreint et peut ne pas convenir à tous les goûts. Très bien cuisiné toutefois"
           }
-        ]
+        ],
+        "filters": ["Restaurant","Souper"]
       },{
         id: 18,
         name: "Librairie Poirier",
@@ -714,7 +731,7 @@ define([
           tel: '(819) 379-8980',
           email: 'test@example.com'
         },
-        website: 'librairiepoirier.ca',
+        website: 'http://www.librairiepoirier.ca',
         type: "Autre",
         ratings: [
           {
@@ -732,7 +749,8 @@ define([
             "name": "Antoine Chené-Côté",
             comment: "Très agréable. L'endroit idéal pour s'arrêter prendre une bière avec des amis. Par contre le menu est assez restreint et peut ne pas convenir à tous les goûts. Très bien cuisiné toutefois"
           }
-        ]
+        ],
+        "filters": ["Étudier"]
       },{
         id: 19,
         name: "L'Oriflamme",
@@ -772,7 +790,8 @@ define([
             "name": "Antoine Chené-Côté",
             comment: "Très agréable. L'endroit idéal pour s'arrêter prendre une bière avec des amis. Par contre le menu est assez restreint et peut ne pas convenir à tous les goûts. Très bien cuisiné toutefois"
           }
-        ]
+        ],
+        "filters": ["Restaurant","Souper"]
       },{
         id: 20,
         name: "Café Morgane",
@@ -812,7 +831,8 @@ define([
             "name": "Antoine Chené-Côté",
             comment: "Très agréable. L'endroit idéal pour s'arrêter prendre une bière avec des amis. Par contre le menu est assez restreint et peut ne pas convenir à tous les goûts. Très bien cuisiné toutefois"
           }
-        ]
+        ],
+        "filters": ["Restaurant","Souper"]
       }];
 
       this.pages = [{
@@ -826,6 +846,136 @@ define([
         title: 'Contact',
         icon: 'ion-paper-airplane'
       }];
+
+      this.categories = [
+        {
+          name: "Bar",
+          isActive: true
+        },
+        {
+          name: "Restaurant",
+          isActive: true
+        },
+        {
+          name: "Bistro",
+          isActive: true
+        },
+        {
+          name: "Musique",
+          isActive: true
+        },
+        {
+          name: "Cinéma",
+          isActive: true
+        },
+        {
+          name: "Théâtre",
+          isActive: true
+        },
+        {
+          name: "Sports",
+          isActive: true
+        },
+        {
+          name: "Artistique",
+          isActive: true
+        },
+        {
+          name: "Sushi",
+          isActive: true
+        },
+        {
+          name: "Thaï",
+          isActive: true
+        },
+        {
+          name: "Indien",
+          isActive: true
+        },
+        {
+          name: "Crèmerie",
+          isActive: true
+        },
+        {
+          name: "Enfant",
+          isActive: true
+        },
+        {
+          name: "Autre",
+          isActive: true
+        }
+      ];
+      this.moods = [
+        {
+          name: "Social",
+          isActive: true
+        },
+        {
+          name: "Boire un verre",
+          isActive: true
+        },
+        {
+          name: "Étudier",
+          isActive: true
+        },
+        {
+          name: "Dancer",
+          isActive: true
+        },
+        {
+          name: "Relax",
+          isActive: true
+        },
+        {
+          name: "Discuter",
+          isActive: true
+        },
+        {
+          name: "Nostalgie",
+          isActive: true
+        }
+      ];
+      this.times = [
+        {
+          name: "Ce soir",
+          isActive: true
+        },
+        {
+          name: "Demain AM",
+          isActive: true
+        },
+        {
+          name: "Demain PM",
+          isActive: true
+        },
+        {
+          name: "Cette semaine",
+          isActive: true
+        },
+        {
+          name: "Fin de semaine prochaine",
+          isActive: true
+        },
+        {
+          name: "Matin",
+          isActive: true
+        },
+        {
+          name: "Après-midi",
+          isActive: true
+        },
+        {
+          name: "Soir",
+          isActive: true
+        },
+        {
+          name: "Tôt le matin",
+          isActive: true
+        },
+        {
+          name: "Nuit blanche",
+          isActive: true
+        }];
     }
   ]);
 });
