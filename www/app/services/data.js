@@ -957,7 +957,7 @@ define([
           isActive: true
         },
         {
-          name: "Demain AM", 
+          name: "Demain AM",
           isActive: true
         },
         {
