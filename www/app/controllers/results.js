@@ -147,7 +147,7 @@ define([
 
       $scope.showOverlayDicover = function() {
         $ionicLoading.show({
-          templateUrl: '/app/templates/overlayDiscover.html',
+          templateUrl: 'app/templates/overlayDiscover.html',
           scope: $scope
         });
 

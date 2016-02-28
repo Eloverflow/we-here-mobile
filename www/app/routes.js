@@ -17,7 +17,7 @@ define([
       $urlRouterProvider.otherwise('results');
 
       $stateProvider
-        // app states
+      // app states
         .state('dashboard', {
           url: '/dashboard',
           templateUrl: 'app/templates/dashboard.html',
@@ -40,9 +40,17 @@ define([
           templateUrl: 'app/templates/filter.html'
         })
         .state('care', {
-        url: '/oui-care',
-        templateUrl: 'app/templates/oui-care.html'
-      });
+          url: '/oui-care',
+          templateUrl: 'app/templates/oui-care.html'
+        })
+        .state('profil', {
+          url: '/profil',
+          templateUrl: 'app/templates/profil.html'
+        })
+        .state('login', {
+          url: '/login',
+          templateUrl: 'app/templates/login.html'
+        });
     }
   ]);
 });

@@ -8,13 +8,13 @@
       </button>
     </ion-list>
     <ion-list>
-      <ion-item class="item-divider"><b>Humeur</b></ion-item>
+      <ion-item class="item-divider"><b>Humeurs</b></ion-item>
       <button ng-click="toggleMood(mood)" ng-class="mood.isActive ? 'active' : ''" class="button button-outline button-balanced" ng-repeat="mood in moods" style="margin: 10px;">
         {{mood.name}}
       </button>
     </ion-list>
     <ion-list>
-      <ion-item class="item-divider"><b>Période</b></ion-item>
+      <ion-item class="item-divider"><b>Périodes</b></ion-item>
       <button ng-click="toggleTime(time)" ng-class="time.isActive ? 'active' : ''" class="button button-outline button-balanced" ng-repeat="time in times" style="margin: 10px;">
         {{time.name}}
       </button>

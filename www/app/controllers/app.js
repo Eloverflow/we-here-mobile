@@ -16,7 +16,7 @@ define([
 
       $scope.pay = function() {
         $ionicLoading.show({
-          templateUrl: '/app/templates/pay.html',
+          templateUrl: 'app/templates/pay.html',
           scope: $scope
         });
       };
