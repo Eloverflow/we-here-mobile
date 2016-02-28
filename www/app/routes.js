@@ -24,6 +24,7 @@ define([
           controller: 'DashboardCtrl'
         })
         .state('results', {
+          cache: false,
           url: '/results',
           controller: 'ResultsCtrl',
           templateUrl: 'app/templates/results.html'

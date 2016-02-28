@@ -9,6 +9,7 @@ define([
     '$timeout',
     'dataService',
     function ($q, $timeout, dataService) {
+      var self = this;
 
       this.search = function () {
         var events = dataService.events,
@@ -17,17 +18,41 @@ define([
             currentEvent,
             i = 0;
 
+
+        var filters = window.localStorage['filters'].split(",");
+
         for (i; i < events.length; i = i + 1) {
           currentEvent = events[i];
-              currentEvent.thumb = 'http://lorempixel.com/200/200/nightlife/?' + ((new Date()).getTime() + i);
-              founds.push(currentEvent);
+          if(self.hasFilter(filters, currentEvent.filters)) {
+            currentEvent.thumb = 'http://lorempixel.com/200/200/nightlife/?' + ((new Date()).getTime() + i);
+            founds.push(currentEvent);
+          }
         }
         // simulate asynchronous requests
         $timeout(function () {
+          if(founds.length === 0) {
+            founds = events;
+            for(var i = 0; i < founds.length; i++) {
+              founds[i].thumb = 'http://lorempixel.com/200/200/nightlife/?' + ((new Date()).getTime() + i)
+            }
+          }
           deferred.resolve(angular.copy(founds));
         }, 2000);
 
         return deferred.promise;
+      };
+
+      this.hasFilter = function(filters, currentEvent) {
+        var ret = [];
+        for (var i = 0; i < filters.length; i++) {
+          for (var z = 0; z < currentEvent.length; z++) {
+            if (filters[i] == currentEvent[z]) {
+              ret.push(i);
+              break;
+            }
+          }
+        }
+        return ret.length > 0;
       };
 
       this.getNext = function () {

@@ -27,7 +27,7 @@ define([
           tel: '(819) 691-3371',
           email: 'test@example.com'
         },
-        website: 'letempsdunepinte.ca',
+        website: 'http://www.letempsdunepinte.ca',
         type: "Bar",
         ratings: [
           {
@@ -234,7 +234,7 @@ define([
           tel: '(819) 840-2833',
           email: 'test@example.com'
         },
-        website: 'banhthai.ca',
+        website: 'http://www.banhthai.ca',
         type: "Restaurant",
         ratings: [
           {
@@ -317,7 +317,7 @@ define([
           tel: '(819) 379-8980',
           email: 'test@example.com'
         },
-        website: 'librairiepoirier.ca',
+        website: 'http://www.librairiepoirier.ca',
         type: "Autre",
         ratings: [
           {
@@ -441,7 +441,7 @@ define([
           tel: '(819) 691-3371',
           email: 'test@example.com'
         },
-        website: 'letempsdunepinte.ca',
+        website: 'http://www.letempsdunepinte.ca',
         type: "Bar",
         ratings: [
           {
@@ -542,7 +542,8 @@ define([
             "name": "Antoine Chené-Côté",
             comment: "Très agréable. L'endroit idéal pour s'arrêter prendre une bière avec des amis. Par contre le menu est assez restreint et peut ne pas convenir à tous les goûts. Très bien cuisiné toutefois"
           }
-        ]
+        ],
+        "filters": ["Restaurant","Souper"]
       }, {
         id: 14,
         name: "Sushizo",
@@ -582,7 +583,8 @@ define([
             "name": "Antoine Chené-Côté",
             comment: "Très agréable. L'endroit idéal pour s'arrêter prendre une bière avec des amis. Par contre le menu est assez restreint et peut ne pas convenir à tous les goûts. Très bien cuisiné toutefois"
           }
-        ]
+        ],
+        "filters": ["Restaurant","Souper"]
       }, {
         id: 15,
         name: "La Maison de Débauche par le Carlito",
@@ -622,7 +624,8 @@ define([
             "name": "Antoine Chené-Côté",
             comment: "Très agréable. L'endroit idéal pour s'arrêter prendre une bière avec des amis. Par contre le menu est assez restreint et peut ne pas convenir à tous les goûts. Très bien cuisiné toutefois"
           }
-        ]
+        ],
+        "filters": ["Restaurant","Souper"]
       }, {
         id: 16,
         name: "Banh Thai Restaurant",
@@ -645,7 +648,7 @@ define([
           tel: '(819) 840-2833',
           email: 'test@example.com'
         },
-        website: 'banhthai.ca',
+        website: 'http://www.banhthai.ca',
         type: "Restaurant",
         ratings: [
           {
@@ -663,7 +666,8 @@ define([
             "name": "Antoine Chené-Côté",
             comment: "Très agréable. L'endroit idéal pour s'arrêter prendre une bière avec des amis. Par contre le menu est assez restreint et peut ne pas convenir à tous les goûts. Très bien cuisiné toutefois"
           }
-        ]
+        ],
+        "filters": ["Restaurant","Souper"]
       },{
         id: 17,
         name: "ELEPHANT",
@@ -703,7 +707,8 @@ define([
             "name": "Antoine Chené-Côté",
             comment: "Très agréable. L'endroit idéal pour s'arrêter prendre une bière avec des amis. Par contre le menu est assez restreint et peut ne pas convenir à tous les goûts. Très bien cuisiné toutefois"
           }
-        ]
+        ],
+        "filters": ["Restaurant","Souper"]
       },{
         id: 18,
         name: "Librairie Poirier",
@@ -726,7 +731,7 @@ define([
           tel: '(819) 379-8980',
           email: 'test@example.com'
         },
-        website: 'librairiepoirier.ca',
+        website: 'http://www.librairiepoirier.ca',
         type: "Autre",
         ratings: [
           {
@@ -744,7 +749,8 @@ define([
             "name": "Antoine Chené-Côté",
             comment: "Très agréable. L'endroit idéal pour s'arrêter prendre une bière avec des amis. Par contre le menu est assez restreint et peut ne pas convenir à tous les goûts. Très bien cuisiné toutefois"
           }
-        ]
+        ],
+        "filters": ["Étudier"]
       },{
         id: 19,
         name: "L'Oriflamme",
@@ -784,7 +790,8 @@ define([
             "name": "Antoine Chené-Côté",
             comment: "Très agréable. L'endroit idéal pour s'arrêter prendre une bière avec des amis. Par contre le menu est assez restreint et peut ne pas convenir à tous les goûts. Très bien cuisiné toutefois"
           }
-        ]
+        ],
+        "filters": ["Restaurant","Souper"]
       },{
         id: 20,
         name: "Café Morgane",
@@ -824,7 +831,8 @@ define([
             "name": "Antoine Chené-Côté",
             comment: "Très agréable. L'endroit idéal pour s'arrêter prendre une bière avec des amis. Par contre le menu est assez restreint et peut ne pas convenir à tous les goûts. Très bien cuisiné toutefois"
           }
-        ]
+        ],
+        "filters": ["Restaurant","Souper"]
       }];
 
       this.pages = [{
