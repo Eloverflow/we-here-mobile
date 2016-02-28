@@ -10,34 +10,6 @@ define([
     'dataService',
     function ($q, $timeout, dataService) {
 
-      //function check(currentEvent, satTrans, wheelChair, wheelChairLift) {
-      //  if (satTrans && wheelChair && wheelChairLift) {
-      //    if (!currentEvent.satTrans || !currentEvent.wheelChair || !currentEvent.wheelChairLift) {
-      //      return false;
-      //    }
-      //  } else if (satTrans && wheelChair) {
-      //    if (!currentEvent.satTrans || !currentEvent.wheelChair) {
-      //      return false;
-      //    }
-      //  } else if (wheelChair && wheelChairLift) {
-      //    if (!currentEvent.wheelChair || !currentEvent.wheelChairLift) {
-      //      return false;
-      //    }
-      //  } else if (satTrans && wheelChairLift) {
-      //    if (!currentEvent.satTrans || !currentEvent.wheelChairLift) {
-      //      return false;
-      //    }
-      //  } else if (satTrans && !currentEvent.satTrans) {
-      //    return false;
-      //  } else if (wheelChair && !currentEvent.wheelChair) {
-      //    return false;
-      //  } else if (wheelChairLift && !currentEvent.wheelChairLift) {
-      //    return false;
-      //  }
-      //
-      //  return true;
-      //}
-
       this.search = function () {
         var events = dataService.events,
             deferred = $q.defer(),
@@ -47,7 +19,7 @@ define([
 
         for (i; i < events.length; i = i + 1) {
           currentEvent = events[i];
-              currentEvent.thumb = 'http://lorempixel.com/200/200/sports/?' + ((new Date()).getTime() + i);
+              currentEvent.thumb = 'http://lorempixel.com/200/200/nightlife/?' + ((new Date()).getTime() + i);
               founds.push(currentEvent);
         }
         // simulate asynchronous requests
@@ -67,7 +39,7 @@ define([
           if (i === 5) {
             break;
           }
-          dataService.events[i].thumb = 'http://lorempixel.com/200/200/sports/?' + ((new Date()).getTime() + i);
+          dataService.events[i].thumb = 'http://lorempixel.com/200/200/nightlife/?' + ((new Date()).getTime() + i);
           events.push(dataService.events[i]);
         }
 
@@ -86,7 +58,7 @@ define([
         for (i; i < dataService.events.length; i = i + 1) {
           if (dataService.events[i].id.toString() === id.toString()) {
             event = angular.copy(dataService.events[i]);
-            event.image = 'http://lorempixel.com/620/480/sports/?' + ((new Date()).getTime() + i);
+            event.image = 'http://lorempixel.com/620/480/nightlife/?' + ((new Date()).getTime() + i);
             break;
           }
         }

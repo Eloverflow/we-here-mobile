@@ -9,370 +9,470 @@ define([
         id: 1,
         name: "Le temps d'une pinte",
         city: 'Trois-Rivière',
-        district: 'Düsseldorf',
         street: 'Rue Notre Dame Centre',
         number: '1465',
         zip: 'G9A 4X4',
         lat: 46.341232,
         lng: -72.540404,
         dates: [
-          'Monday: 9:00 AM',
-          'Sunday: 9:00 AM'
+          'Lundi: Fermé',
+          'Mardi: Fermé',
+          'Mercredi: Fermé',
+          'Jeudi: 11:00 AM - 3:00 AM',
+          'Vendredi: 11:00 AM - 3:00 AM',
+          'Samedi: 11:00 AM - 3:00 AM',
+          'Dimanche: 11:00 AM - 3:00 AM'
         ],
         contact: {
           tel: '(819) 691-3371',
           email: 'test@example.com'
         },
-        website: 'letempsdunepinte.ca'
+        website: 'letempsdunepinte.ca',
+        type: "Bar"
       }, {
         id: 2,
         name: "Gambrinus Brasserie Artisanale",
         city: 'Trois-Rivière',
-        district: 'Düsseldorf',
         street: 'Boulevard des Forges',
         number: '3160',
         zip: 'G8Z 1V6',
         lat: 46.350535,
         lng: -72.572628,
         dates: [
-          'Monday: 9:00 AM',
-          'Sunday: 9:00 AM'
+          'Lundi: Fermé',
+          'Mardi: Fermé',
+          'Mercredi: Fermé',
+          'Jeudi: 11:00 AM - 3:00 AM',
+          'Vendredi: 11:00 AM - 3:00 AM',
+          'Samedi: 11:00 AM - 3:00 AM',
+          'Dimanche: 11:00 AM - 3:00 AM'
         ],
         contact: {
           tel: '(819) 694-4484',
           email: 'test@example.com'
         },
-        website: 'http://www.gambrinus.qc.ca/'
+        website: 'http://www.gambrinus.qc.ca/',
+        type: "Bar"
       }, {
         id: 3,
         name: "Crêperie Dc",
         city: 'Trois-Rivière',
-        district: 'Düsseldorf',
         street: 'Boulevard des Récollets',
         number: '855',
         zip: 'G8Z 3W4',
         lat: 46.359321,
         lng: -72.570051,
         dates: [
-          'Monday: 9:00 AM',
-          'Sunday: 9:00 AM'
+          'Lundi: 8:00 AM - 9:00 PM',
+          'Mardi: 8:00 AM - 9:00 PM',
+          'Mercredi: 8:00 AM - 9:00 PM',
+          'Jeudi: 8:00 AM - 11:00 PM',
+          'Vendredi: 11:00 AM - 11:00 PM',
+          'Samedi: 11:00 AM - 11:00 PM',
+          'Dimanche: 11:00 AM - 9:00 PM'
         ],
         contact: {
           tel: '(819) 694-4484',
           email: 'test@example.com'
-        }
+        },
+        type: "Restaurant"
       }, {
         id: 4,
         name: "Sushizo",
         city: 'Trois-Rivière',
-        district: 'Düsseldorf',
         street: 'Rue Royale',
         number: '1350',
         zip: 'G9A 4J4',
         lat: 46.343280,
         lng: -72.543860,
         dates: [
-          'Monday: 9:00 AM',
-          'Sunday: 9:00 AM'
+          'Lundi: 8:00 AM - 9:00 PM',
+          'Mardi: 8:00 AM - 9:00 PM',
+          'Mercredi: 8:00 AM - 9:00 PM',
+          'Jeudi: 8:00 AM - 11:00 PM',
+          'Vendredi: 11:00 AM - 11:00 PM',
+          'Samedi: 11:00 AM - 11:00 PM',
+          'Dimanche: 11:00 AM - 9:00 PM'
         ],
         contact: {
           tel: '(819) 840-2919',
           email: 'test@example.com'
-        }
+        },
+        type: "Restaurant"
       }, {
         id: 5,
         name: "La Maison de Débauche par le Carlito",
         city: 'Trois-Rivière',
-        district: 'Düsseldorf',
         street: 'Rue des Forges',
         number: '361',
         zip: 'G9A 4S8',
         lat: 46.341934,
         lng: -72.543890,
         dates: [
-          'Monday: 9:00 AM',
-          'Sunday: 9:00 AM'
+          'Lundi: Fermé',
+          'Mardi: Fermé',
+          'Mercredi: Fermé',
+          'Jeudi: 11:00 AM - 3:00 AM',
+          'Vendredi: 11:00 AM - 3:00 AM',
+          'Samedi: 11:00 AM - 3:00 AM',
+          'Dimanche: 11:00 AM - 3:00 AM'
         ],
         contact: {
           tel: '(819) 694-4484',
           email: 'test@example.com'
-        }
+        },
+        type: "Bar"
       }, {
         id: 6,
         name: "Banh Thai Restaurant",
         city: 'Trois-Rivière',
-        district: 'Düsseldorf',
         street: 'Boul Gene-H.-Kruger',
         number: '4730',
         zip: 'G9A 4N1',
         lat: 46.324686,
         lng: -72.565321,
         dates: [
-          'Monday: 9:00 AM',
-          'Sunday: 9:00 AM'
+          'Lundi: 8:00 AM - 9:00 PM',
+          'Mardi: 8:00 AM - 9:00 PM',
+          'Mercredi: 8:00 AM - 9:00 PM',
+          'Jeudi: 8:00 AM - 11:00 PM',
+          'Vendredi: 11:00 AM - 11:00 PM',
+          'Samedi: 11:00 AM - 11:00 PM',
+          'Dimanche: 11:00 AM - 9:00 PM'
         ],
         contact: {
           tel: '(819) 840-2833',
           email: 'test@example.com'
         },
-        website: 'banhthai.ca'
+        website: 'banhthai.ca',
+        type: "Restaurant"
       },{
         id: 7,
         name: "ELEPHANT",
         city: 'Trois-Rivière',
-        district: 'Düsseldorf',
         street: 'Boulevard des Récollets',
         number: '820',
         zip: 'G8Z 3W2',
         lat: 46.360328,
         lng: -72.571055,
         dates: [
-          'Monday: 9:00 AM',
-          'Sunday: 9:00 AM'
+          'Lundi: Fermé',
+          'Mardi: Fermé',
+          'Mercredi: Fermé',
+          'Jeudi: 11:00 AM - 3:00 AM',
+          'Vendredi: 11:00 AM - 3:00 AM',
+          'Samedi: 11:00 AM - 3:00 AM',
+          'Dimanche: 11:00 AM - 3:00 AM'
         ],
         contact: {
           tel: '(819) 840-6923',
           email: 'test@example.com'
-        }
+        },
+        type: "Bar"
       },{
         id: 8,
         name: "Librairie Poirier",
         city: 'Trois-Rivière',
-        district: 'Düsseldorf',
         street: 'Boulevard des Récollets',
         number: '1374',
         zip: 'G8Z 4L5',
         lat: 46.353343,
         lng: -72.578717,
         dates: [
-          'Monday: 9:00 AM',
-          'Sunday: 9:00 AM'
+          'Lundi: 8:00 AM - 9:00 PM',
+          'Mardi: 8:00 AM - 9:00 PM',
+          'Mercredi: 8:00 AM - 9:00 PM',
+          'Jeudi: 8:00 AM - 11:00 PM',
+          'Vendredi: 11:00 AM - 11:00 PM',
+          'Samedi: 11:00 AM - 11:00 PM',
+          'Dimanche: 11:00 AM - 9:00 PM'
         ],
         contact: {
           tel: '(819) 379-8980',
           email: 'test@example.com'
         },
-        website: 'librairiepoirier.ca'
+        website: 'librairiepoirier.ca',
+        type: "Autre"
       },{
         id: 9,
         name: "L'Oriflamme",
         city: 'Trois-Rivière',
-        district: 'Düsseldorf',
         street: 'Boulevard des Forges',
         number: '1900',
         zip: 'G8Z 0A3',
         lat: 46.345672,
         lng: -72.573886,
         dates: [
-          'Monday: 9:00 AM',
-          'Sunday: 9:00 AM'
+          'Lundi: Fermé',
+          'Mardi: Fermé',
+          'Mercredi: Fermé',
+          'Jeudi: 11:00 AM - 3:00 AM',
+          'Vendredi: 11:00 AM - 3:00 AM',
+          'Samedi: 11:00 AM - 3:00 AM',
+          'Dimanche: 11:00 AM - 3:00 AM'
         ],
         contact: {
           tel: '(819) 694-4484',
           email: 'test@example.com'
-        }
+        },
+        type: "Bar"
       },{
         id: 10,
         name: "Café Morgane",
         city: 'Trois-Rivière',
-        district: 'Düsseldorf',
         street: 'Boulevard des Forges',
         number: '3790',
         zip: 'G8Y 4R2',
         lat: 46.354528,
         lng: -72.582336,
         dates: [
-          'Monday: 9:00 AM',
-          'Sunday: 9:00 AM'
+          'Lundi: 8:00 AM - 9:00 PM',
+          'Mardi: 8:00 AM - 9:00 PM',
+          'Mercredi: 8:00 AM - 9:00 PM',
+          'Jeudi: 8:00 AM - 11:00 PM',
+          'Vendredi: 11:00 AM - 11:00 PM',
+          'Samedi: 11:00 AM - 11:00 PM',
+          'Dimanche: 11:00 AM - 9:00 PM'
         ],
         contact: {
           tel: '(819) 375-8821',
           email: 'test@example.com'
-        }
+        },
+        type: "Restaurant"
       },{
-        id: 1,
+        id: 11,
         name: "Le temps d'une pinte",
         city: 'Trois-Rivière',
-        district: 'Düsseldorf',
         street: 'Rue Notre Dame Centre',
         number: '1465',
         zip: 'G9A 4X4',
-        lat: 46.659006,
-        lng: -71.328179,
+        lat: 46.341232,
+        lng: -72.540404,
         dates: [
-          'Monday: 9:00 AM',
-          'Sunday: 9:00 AM'
+          'Lundi: Fermé',
+          'Mardi: Fermé',
+          'Mercredi: Fermé',
+          'Jeudi: 11:00 AM - 3:00 AM',
+          'Vendredi: 11:00 AM - 3:00 AM',
+          'Samedi: 11:00 AM - 3:00 AM',
+          'Dimanche: 11:00 AM - 3:00 AM'
         ],
         contact: {
           tel: '(819) 691-3371',
           email: 'test@example.com'
         },
-        website: 'letempsdunepinte.ca'
+        website: 'letempsdunepinte.ca',
+        type: "Bar"
       }, {
-        id: 2,
+        id: 12,
         name: "Gambrinus Brasserie Artisanale",
         city: 'Trois-Rivière',
-        district: 'Düsseldorf',
         street: 'Boulevard des Forges',
         number: '3160',
         zip: 'G8Z 1V6',
         lat: 46.350535,
         lng: -72.572628,
         dates: [
-          'Monday: 9:00 AM',
-          'Sunday: 9:00 AM'
+          'Lundi: Fermé',
+          'Mardi: Fermé',
+          'Mercredi: Fermé',
+          'Jeudi: 11:00 AM - 3:00 AM',
+          'Vendredi: 11:00 AM - 3:00 AM',
+          'Samedi: 11:00 AM - 3:00 AM',
+          'Dimanche: 11:00 AM - 3:00 AM'
         ],
         contact: {
           tel: '(819) 694-4484',
           email: 'test@example.com'
         },
-        website: 'http://www.gambrinus.qc.ca/'
+        website: 'http://www.gambrinus.qc.ca/',
+        type: "Bar"
       }, {
-        id: 3,
+        id: 13,
         name: "Crêperie Dc",
         city: 'Trois-Rivière',
-        district: 'Düsseldorf',
         street: 'Boulevard des Récollets',
         number: '855',
         zip: 'G8Z 3W4',
         lat: 46.359321,
         lng: -72.570051,
         dates: [
-          'Monday: 9:00 AM',
-          'Sunday: 9:00 AM'
+          'Lundi: 8:00 AM - 9:00 PM',
+          'Mardi: 8:00 AM - 9:00 PM',
+          'Mercredi: 8:00 AM - 9:00 PM',
+          'Jeudi: 8:00 AM - 11:00 PM',
+          'Vendredi: 11:00 AM - 11:00 PM',
+          'Samedi: 11:00 AM - 11:00 PM',
+          'Dimanche: 11:00 AM - 9:00 PM'
         ],
         contact: {
           tel: '(819) 694-4484',
           email: 'test@example.com'
-        }
+        },
+        type: "Restaurant"
       }, {
-        id: 4,
+        id: 14,
         name: "Sushizo",
         city: 'Trois-Rivière',
-        district: 'Düsseldorf',
         street: 'Rue Royale',
         number: '1350',
         zip: 'G9A 4J4',
         lat: 46.343280,
         lng: -72.543860,
         dates: [
-          'Monday: 9:00 AM',
-          'Sunday: 9:00 AM'
+          'Lundi: 8:00 AM - 9:00 PM',
+          'Mardi: 8:00 AM - 9:00 PM',
+          'Mercredi: 8:00 AM - 9:00 PM',
+          'Jeudi: 8:00 AM - 11:00 PM',
+          'Vendredi: 11:00 AM - 11:00 PM',
+          'Samedi: 11:00 AM - 11:00 PM',
+          'Dimanche: 11:00 AM - 9:00 PM'
         ],
         contact: {
           tel: '(819) 840-2919',
           email: 'test@example.com'
-        }
+        },
+        type: "Restaurant"
       }, {
-        id: 5,
+        id: 15,
         name: "La Maison de Débauche par le Carlito",
         city: 'Trois-Rivière',
-        district: 'Düsseldorf',
         street: 'Rue des Forges',
         number: '361',
         zip: 'G9A 4S8',
         lat: 46.341934,
         lng: -72.543890,
         dates: [
-          'Monday: 9:00 AM',
-          'Sunday: 9:00 AM'
+          'Lundi: Fermé',
+          'Mardi: Fermé',
+          'Mercredi: Fermé',
+          'Jeudi: 11:00 AM - 3:00 AM',
+          'Vendredi: 11:00 AM - 3:00 AM',
+          'Samedi: 11:00 AM - 3:00 AM',
+          'Dimanche: 11:00 AM - 3:00 AM'
         ],
         contact: {
           tel: '(819) 694-4484',
           email: 'test@example.com'
-        }
+        },
+        type: "Bar"
       }, {
-        id: 6,
+        id: 16,
         name: "Banh Thai Restaurant",
         city: 'Trois-Rivière',
-        district: 'Düsseldorf',
         street: 'Boul Gene-H.-Kruger',
         number: '4730',
         zip: 'G9A 4N1',
         lat: 46.324686,
         lng: -72.565321,
         dates: [
-          'Monday: 9:00 AM',
-          'Sunday: 9:00 AM'
+          'Lundi: 8:00 AM - 9:00 PM',
+          'Mardi: 8:00 AM - 9:00 PM',
+          'Mercredi: 8:00 AM - 9:00 PM',
+          'Jeudi: 8:00 AM - 11:00 PM',
+          'Vendredi: 11:00 AM - 11:00 PM',
+          'Samedi: 11:00 AM - 11:00 PM',
+          'Dimanche: 11:00 AM - 9:00 PM'
         ],
         contact: {
           tel: '(819) 840-2833',
           email: 'test@example.com'
         },
-        website: 'banhthai.ca'
+        website: 'banhthai.ca',
+        type: "Restaurant"
       },{
-        id: 7,
+        id: 17,
         name: "ELEPHANT",
         city: 'Trois-Rivière',
-        district: 'Düsseldorf',
         street: 'Boulevard des Récollets',
         number: '820',
         zip: 'G8Z 3W2',
         lat: 46.360328,
         lng: -72.571055,
         dates: [
-          'Monday: 9:00 AM',
-          'Sunday: 9:00 AM'
+          'Lundi: Fermé',
+          'Mardi: Fermé',
+          'Mercredi: Fermé',
+          'Jeudi: 11:00 AM - 3:00 AM',
+          'Vendredi: 11:00 AM - 3:00 AM',
+          'Samedi: 11:00 AM - 3:00 AM',
+          'Dimanche: 11:00 AM - 3:00 AM'
         ],
         contact: {
           tel: '(819) 840-6923',
           email: 'test@example.com'
-        }
+        },
+        type: "Bar"
       },{
-        id: 8,
+        id: 18,
         name: "Librairie Poirier",
         city: 'Trois-Rivière',
-        district: 'Düsseldorf',
         street: 'Boulevard des Récollets',
         number: '1374',
         zip: 'G8Z 4L5',
         lat: 46.353343,
         lng: -72.578717,
         dates: [
-          'Monday: 9:00 AM',
-          'Sunday: 9:00 AM'
+          'Lundi: 8:00 AM - 9:00 PM',
+          'Mardi: 8:00 AM - 9:00 PM',
+          'Mercredi: 8:00 AM - 9:00 PM',
+          'Jeudi: 8:00 AM - 11:00 PM',
+          'Vendredi: 11:00 AM - 11:00 PM',
+          'Samedi: 11:00 AM - 11:00 PM',
+          'Dimanche: 11:00 AM - 9:00 PM'
         ],
         contact: {
           tel: '(819) 379-8980',
           email: 'test@example.com'
         },
-        website: 'librairiepoirier.ca'
+        website: 'librairiepoirier.ca',
+        type: "Autre"
       },{
-        id: 9,
+        id: 19,
         name: "L'Oriflamme",
         city: 'Trois-Rivière',
-        district: 'Düsseldorf',
         street: 'Boulevard des Forges',
         number: '1900',
         zip: 'G8Z 0A3',
         lat: 46.345672,
         lng: -72.573886,
         dates: [
-          'Monday: 9:00 AM',
-          'Sunday: 9:00 AM'
+          'Lundi: Fermé',
+          'Mardi: Fermé',
+          'Mercredi: Fermé',
+          'Jeudi: 11:00 AM - 3:00 AM',
+          'Vendredi: 11:00 AM - 3:00 AM',
+          'Samedi: 11:00 AM - 3:00 AM',
+          'Dimanche: 11:00 AM - 3:00 AM'
         ],
         contact: {
           tel: '(819) 694-4484',
           email: 'test@example.com'
-        }
+        },
+        type: "Bar"
       },{
-        id: 10,
+        id: 20,
         name: "Café Morgane",
         city: 'Trois-Rivière',
-        district: 'Düsseldorf',
         street: 'Boulevard des Forges',
         number: '3790',
         zip: 'G8Y 4R2',
         lat: 46.354528,
         lng: -72.582336,
         dates: [
-          'Monday: 9:00 AM',
-          'Sunday: 9:00 AM'
+          'Lundi: 8:00 AM - 9:00 PM',
+          'Mardi: 8:00 AM - 9:00 PM',
+          'Mercredi: 8:00 AM - 9:00 PM',
+          'Jeudi: 8:00 AM - 11:00 PM',
+          'Vendredi: 11:00 AM - 11:00 PM',
+          'Samedi: 11:00 AM - 11:00 PM',
+          'Dimanche: 11:00 AM - 9:00 PM'
         ],
         contact: {
           tel: '(819) 375-8821',
           email: 'test@example.com'
-        }
+        },
+        type: "Restaurant"
       }];
 
       this.pages = [{
