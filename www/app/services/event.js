@@ -10,36 +10,35 @@ define([
     'dataService',
     function ($q, $timeout, dataService) {
 
-      function check(currentEvent, satTrans, wheelChair, wheelChairLift) {
-        if (satTrans && wheelChair && wheelChairLift) {
-          if (!currentEvent.satTrans || !currentEvent.wheelChair || !currentEvent.wheelChairLift) {
-            return false;
-          }
-        } else if (satTrans && wheelChair) {
-          if (!currentEvent.satTrans || !currentEvent.wheelChair) {
-            return false;
-          }
-        } else if (wheelChair && wheelChairLift) {
-          if (!currentEvent.wheelChair || !currentEvent.wheelChairLift) {
-            return false;
-          }
-        } else if (satTrans && wheelChairLift) {
-          if (!currentEvent.satTrans || !currentEvent.wheelChairLift) {
-            return false;
-          }
-        } else if (satTrans && !currentEvent.satTrans) {
-          return false;
-        } else if (wheelChair && !currentEvent.wheelChair) {
-          return false;
-        } else if (wheelChairLift && !currentEvent.wheelChairLift) {
-          return false;
-        }
+      //function check(currentEvent, satTrans, wheelChair, wheelChairLift) {
+      //  if (satTrans && wheelChair && wheelChairLift) {
+      //    if (!currentEvent.satTrans || !currentEvent.wheelChair || !currentEvent.wheelChairLift) {
+      //      return false;
+      //    }
+      //  } else if (satTrans && wheelChair) {
+      //    if (!currentEvent.satTrans || !currentEvent.wheelChair) {
+      //      return false;
+      //    }
+      //  } else if (wheelChair && wheelChairLift) {
+      //    if (!currentEvent.wheelChair || !currentEvent.wheelChairLift) {
+      //      return false;
+      //    }
+      //  } else if (satTrans && wheelChairLift) {
+      //    if (!currentEvent.satTrans || !currentEvent.wheelChairLift) {
+      //      return false;
+      //    }
+      //  } else if (satTrans && !currentEvent.satTrans) {
+      //    return false;
+      //  } else if (wheelChair && !currentEvent.wheelChair) {
+      //    return false;
+      //  } else if (wheelChairLift && !currentEvent.wheelChairLift) {
+      //    return false;
+      //  }
+      //
+      //  return true;
+      //}
 
-        return true;
-      }
-
-
-      this.search = function (searchString, satTrans, wheelChair, wheelChairLift) {
+      this.search = function () {
         var events = dataService.events,
             deferred = $q.defer(),
             founds = [],
@@ -48,12 +47,8 @@ define([
 
         for (i; i < events.length; i = i + 1) {
           currentEvent = events[i];
-          if (currentEvent.name && currentEvent.name.indexOf(searchString) !== -1 || currentEvent.city && currentEvent.city.indexOf(searchString) !== -1 || currentEvent.district && currentEvent.district.indexOf(searchString) !== -1) {
-            if (check(currentEvent, satTrans, wheelChair, wheelChairLift)) {
               currentEvent.thumb = 'http://lorempixel.com/200/200/sports/?' + ((new Date()).getTime() + i);
               founds.push(currentEvent);
-            }
-          }
         }
         // simulate asynchronous requests
         $timeout(function () {

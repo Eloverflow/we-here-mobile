@@ -16,7 +16,7 @@ define([
       var first = true;
       $scope.limit = 10;
       $scope.show = {
-        list: true
+        list: false
       };
 
       // show next 10
@@ -39,7 +39,8 @@ define([
           $scope.wheelChairLift = wheelChairLift;
           $scope.search = search;
           $scope.loading = true;
-          eventService.search(search, wheelChair, wheelChairLift).then(function (events) {
+          eventService.search().then(function (events) {
+            $scope.baseEvent = events[0];
             $scope.limit = 10;
             $scope.events = events;
           }).finally(function () {
@@ -53,7 +54,8 @@ define([
 
       $scope.reload = function () {
         $scope.loading = true;
-        eventService.search($scope.search, $scope.wheelChair, $scope.wheelChairLift).then(function (events) {
+        eventService.search().then(function (events) {
+          $scope.baseEvent = events[0];
           $scope.limit = 10;
           $scope.events = events;
         }).finally(function () {

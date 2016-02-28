@@ -13,7 +13,7 @@ define([
     '$urlRouterProvider',
     function ($stateProvider, $urlRouterProvider) {
       // url routes/states
-      $urlRouterProvider.otherwise('dashboard');
+      $urlRouterProvider.otherwise('results');
 
       $stateProvider
         // app states
@@ -23,7 +23,7 @@ define([
           controller: 'DashboardCtrl'
         })
         .state('results', {
-          url: '/results/:search/:satTrans/:wheelChair/:wheelChairLift',
+          url: '/results',
           controller: 'ResultsCtrl',
           templateUrl: 'app/templates/results.html'
         })
