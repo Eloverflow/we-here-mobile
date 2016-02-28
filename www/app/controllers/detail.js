@@ -11,7 +11,10 @@ define([
     '$window',
     '$ionicPopup',
     'eventService',
-    function ($scope, $stateParams, $window, $ionicPopup, eventService) {
+    '$ionicModal',
+    '$ionicScrollDelegate',
+    '$sce',
+    function ($scope, $stateParams, $window, $ionicPopup, eventService, $ionicModal, $ionicScrollDelegate, $sce) {
       $scope.loading = true;
       eventService.getOne($stateParams.id).then(function (event) {
         $scope.event = event;
@@ -60,6 +63,38 @@ define([
           }
         });
       };
+
+      $scope.isFullStar = function(rate, index) {
+        return index <= rate;
+      };
+
+      $ionicModal.fromTemplateUrl('app/templates/add-rating.html', {
+        scope: $scope
+      }).then(function (modal) {
+        $scope.modal = modal;
+      });
+
+      $scope.openRatingModal = function() {
+        $scope.newRating = null;
+        $scope.modal.show().then(function () {
+          $ionicScrollDelegate.$getByHandle('modal').scrollTop();
+          $scope.opening = false;
+        });
+      };
+
+      $scope.closeModal = function () {
+        $scope.modal.hide();
+      };
+
+      $scope.addRating = function(rate, name, comment) {
+        var newRating = {
+          "rate": rate,
+          "name": name,
+          "comment": comment
+        };
+        $scope.event.ratings.push(newRating);
+        $scope.closeModal();
+      }
     }
   ]);
 });
