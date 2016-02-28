@@ -44,6 +44,9 @@ define([
             "rate": 4,
             "name": "Antoine Chené-Côté",
             comment: "Très agréable. L'endroit idéal pour s'arrêter prendre une bière avec des amis. Par contre le menu est assez restreint et peut ne pas convenir à tous les goûts. Très bien cuisiné toutefois"
+          },
+          {
+            "filters": ["Bar","Tard", "Nuit blanche"]
           }
         ]
       }, {
@@ -85,6 +88,9 @@ define([
             "rate": 4,
             "name": "Antoine Chené-Côté",
             comment: "Très agréable. L'endroit idéal pour s'arrêter prendre une bière avec des amis. Par contre le menu est assez restreint et peut ne pas convenir à tous les goûts. Très bien cuisiné toutefois"
+          },
+          {
+            "filters": ["Bar","Tard", "Nuit blanche"]
           }
         ]
       }, {
@@ -125,6 +131,9 @@ define([
             "rate": 4,
             "name": "Antoine Chené-Côté",
             comment: "Très agréable. L'endroit idéal pour s'arrêter prendre une bière avec des amis. Par contre le menu est assez restreint et peut ne pas convenir à tous les goûts. Très bien cuisiné toutefois"
+          },
+          {
+            "filters": ["Restaurant","Tôt", "Déjeuner"]
           }
         ]
       }, {
@@ -165,6 +174,9 @@ define([
             "rate": 4,
             "name": "Antoine Chené-Côté",
             comment: "Très agréable. L'endroit idéal pour s'arrêter prendre une bière avec des amis. Par contre le menu est assez restreint et peut ne pas convenir à tous les goûts. Très bien cuisiné toutefois"
+          },
+          {
+            "filters": ["Restaurant","Sushi", "Diner", "Souper"]
           }
         ]
       }, {
@@ -205,6 +217,9 @@ define([
             "rate": 4,
             "name": "Antoine Chené-Côté",
             comment: "Très agréable. L'endroit idéal pour s'arrêter prendre une bière avec des amis. Par contre le menu est assez restreint et peut ne pas convenir à tous les goûts. Très bien cuisiné toutefois"
+          },
+          {
+            "filters": ["Restaurant","Souper"]
           }
         ]
       }, {
@@ -246,6 +261,9 @@ define([
             "rate": 4,
             "name": "Antoine Chené-Côté",
             comment: "Très agréable. L'endroit idéal pour s'arrêter prendre une bière avec des amis. Par contre le menu est assez restreint et peut ne pas convenir à tous les goûts. Très bien cuisiné toutefois"
+          },
+          {
+            "filters": ["Restaurant","Thaï", "Souper"]
           }
         ]
       },{
@@ -286,6 +304,9 @@ define([
             "rate": 4,
             "name": "Antoine Chené-Côté",
             comment: "Très agréable. L'endroit idéal pour s'arrêter prendre une bière avec des amis. Par contre le menu est assez restreint et peut ne pas convenir à tous les goûts. Très bien cuisiné toutefois"
+          },
+          {
+            "filters": ["Restaurant","Indien"]
           }
         ]
       },{
@@ -327,6 +348,9 @@ define([
             "rate": 4,
             "name": "Antoine Chené-Côté",
             comment: "Très agréable. L'endroit idéal pour s'arrêter prendre une bière avec des amis. Par contre le menu est assez restreint et peut ne pas convenir à tous les goûts. Très bien cuisiné toutefois"
+          },
+          {
+            "filters": ["Étudier"]
           }
         ]
       },{
@@ -367,6 +391,9 @@ define([
             "rate": 4,
             "name": "Antoine Chené-Côté",
             comment: "Très agréable. L'endroit idéal pour s'arrêter prendre une bière avec des amis. Par contre le menu est assez restreint et peut ne pas convenir à tous les goûts. Très bien cuisiné toutefois"
+          },
+          {
+            "filters": ["Restaurant", "Sport", "Souper"]
           }
         ]
       },{
@@ -407,6 +434,9 @@ define([
             "rate": 4,
             "name": "Antoine Chené-Côté",
             comment: "Très agréable. L'endroit idéal pour s'arrêter prendre une bière avec des amis. Par contre le menu est assez restreint et peut ne pas convenir à tous les goûts. Très bien cuisiné toutefois"
+          },
+          {
+            "filters": ["Café","matin", "Après-midi"]
           }
         ]
       },{
@@ -448,6 +478,9 @@ define([
             "rate": 4,
             "name": "Antoine Chené-Côté",
             comment: "Très agréable. L'endroit idéal pour s'arrêter prendre une bière avec des amis. Par contre le menu est assez restreint et peut ne pas convenir à tous les goûts. Très bien cuisiné toutefois"
+          },
+          {
+            "filters": ["Bar","Tard"]
           }
         ]
       }, {
@@ -489,6 +522,9 @@ define([
             "rate": 4,
             "name": "Antoine Chené-Côté",
             comment: "Très agréable. L'endroit idéal pour s'arrêter prendre une bière avec des amis. Par contre le menu est assez restreint et peut ne pas convenir à tous les goûts. Très bien cuisiné toutefois"
+          },
+          {
+            "filters": ["Bar","Tard", "Nuit blanche"]
           }
         ]
       }, {
