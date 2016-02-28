@@ -44,6 +44,17 @@
           <i class="icon ion-ios-home"></i>
         </ion-item>
       </ion-list>
+      <br>
+      <ion-list>
+        <ion-item class="item-divider item-icon-right"><b>Avis</b> <i class="icon ion-ios-star"></i></ion-item>
+        <ion-item ng-repeat="rating in event.ratings" style="white-space: normal;">
+          <b>{{rating.name}}</b>
+          <br />
+          <i class="icon" ng-class="isFullStar(rating.rate, i) ? 'ion-ios-star' : 'ion-ios-star-outline'" ng-repeat="i in [1, 2, 3, 4, 5] track by $index"></i>
+          {{rating.comment}}
+        </ion-item>
+        <ion-item ng-click="openRatingModal()"><b>DONNER VOTRE AVIS!</b></ion-item>
+      </ion-list>
     </div>
   </ion-content>
   <ion-footer-bar class="bar-stable">

@@ -28,7 +28,24 @@ define([
           email: 'test@example.com'
         },
         website: 'letempsdunepinte.ca',
-        type: "Bar"
+        type: "Bar",
+        ratings: [
+          {
+            "rate": 5,
+            "name": "Vincent Rouleau",
+            comment: "De passage dans la région nous cherchions un coin sympa pour manger. Nous sommes rentrés au Temps d'une pinte et nous n'avons pas été déçu ! Accueil chaleureux, bonnes bières, service au top et plats savoureux!"
+          },
+          {
+            "rate": 5,
+            "name": "Francis Vallieres",
+            comment: "Le meilleur endroit pour prendre une bière à Trois-Rivières. Ah oui, la boustifaille et le café sont pas piqué des vers ;)"
+          },
+          {
+            "rate": 4,
+            "name": "Antoine Chené-Côté",
+            comment: "Très agréable. L'endroit idéal pour s'arrêter prendre une bière avec des amis. Par contre le menu est assez restreint et peut ne pas convenir à tous les goûts. Très bien cuisiné toutefois"
+          }
+        ]
       }, {
         id: 2,
         name: "Gambrinus Brasserie Artisanale",
@@ -52,7 +69,24 @@ define([
           email: 'test@example.com'
         },
         website: 'http://www.gambrinus.qc.ca/',
-        type: "Bar"
+        type: "Bar",
+        ratings: [
+          {
+            "rate": 5,
+            "name": "Vincent Rouleau",
+            comment: "De passage dans la région nous cherchions un coin sympa pour manger. Nous sommes rentrés au Temps d'une pinte et nous n'avons pas été déçu ! Accueil chaleureux, bonnes bières, service au top et plats savoureux!"
+          },
+          {
+            "rate": 5,
+            "name": "Francis Vallieres",
+            comment: "Le meilleur endroit pour prendre une bière à Trois-Rivières. Ah oui, la boustifaille et le café sont pas piqué des vers ;)"
+          },
+          {
+            "rate": 4,
+            "name": "Antoine Chené-Côté",
+            comment: "Très agréable. L'endroit idéal pour s'arrêter prendre une bière avec des amis. Par contre le menu est assez restreint et peut ne pas convenir à tous les goûts. Très bien cuisiné toutefois"
+          }
+        ]
       }, {
         id: 3,
         name: "Crêperie Dc",
@@ -75,7 +109,24 @@ define([
           tel: '(819) 694-4484',
           email: 'test@example.com'
         },
-        type: "Restaurant"
+        type: "Restaurant",
+        ratings: [
+          {
+            "rate": 5,
+            "name": "Vincent Rouleau",
+            comment: "De passage dans la région nous cherchions un coin sympa pour manger. Nous sommes rentrés au Temps d'une pinte et nous n'avons pas été déçu ! Accueil chaleureux, bonnes bières, service au top et plats savoureux!"
+          },
+          {
+            "rate": 5,
+            "name": "Francis Vallieres",
+            comment: "Le meilleur endroit pour prendre une bière à Trois-Rivières. Ah oui, la boustifaille et le café sont pas piqué des vers ;)"
+          },
+          {
+            "rate": 4,
+            "name": "Antoine Chené-Côté",
+            comment: "Très agréable. L'endroit idéal pour s'arrêter prendre une bière avec des amis. Par contre le menu est assez restreint et peut ne pas convenir à tous les goûts. Très bien cuisiné toutefois"
+          }
+        ]
       }, {
         id: 4,
         name: "Sushizo",
@@ -98,7 +149,24 @@ define([
           tel: '(819) 840-2919',
           email: 'test@example.com'
         },
-        type: "Restaurant"
+        type: "Restaurant",
+        ratings: [
+          {
+            "rate": 5,
+            "name": "Vincent Rouleau",
+            comment: "De passage dans la région nous cherchions un coin sympa pour manger. Nous sommes rentrés au Temps d'une pinte et nous n'avons pas été déçu ! Accueil chaleureux, bonnes bières, service au top et plats savoureux!"
+          },
+          {
+            "rate": 5,
+            "name": "Francis Vallieres",
+            comment: "Le meilleur endroit pour prendre une bière à Trois-Rivières. Ah oui, la boustifaille et le café sont pas piqué des vers ;)"
+          },
+          {
+            "rate": 4,
+            "name": "Antoine Chené-Côté",
+            comment: "Très agréable. L'endroit idéal pour s'arrêter prendre une bière avec des amis. Par contre le menu est assez restreint et peut ne pas convenir à tous les goûts. Très bien cuisiné toutefois"
+          }
+        ]
       }, {
         id: 5,
         name: "La Maison de Débauche par le Carlito",
@@ -121,7 +189,24 @@ define([
           tel: '(819) 694-4484',
           email: 'test@example.com'
         },
-        type: "Bar"
+        type: "Bar",
+        ratings: [
+          {
+            "rate": 5,
+            "name": "Vincent Rouleau",
+            comment: "De passage dans la région nous cherchions un coin sympa pour manger. Nous sommes rentrés au Temps d'une pinte et nous n'avons pas été déçu ! Accueil chaleureux, bonnes bières, service au top et plats savoureux!"
+          },
+          {
+            "rate": 5,
+            "name": "Francis Vallieres",
+            comment: "Le meilleur endroit pour prendre une bière à Trois-Rivières. Ah oui, la boustifaille et le café sont pas piqué des vers ;)"
+          },
+          {
+            "rate": 4,
+            "name": "Antoine Chené-Côté",
+            comment: "Très agréable. L'endroit idéal pour s'arrêter prendre une bière avec des amis. Par contre le menu est assez restreint et peut ne pas convenir à tous les goûts. Très bien cuisiné toutefois"
+          }
+        ]
       }, {
         id: 6,
         name: "Banh Thai Restaurant",
@@ -145,7 +230,24 @@ define([
           email: 'test@example.com'
         },
         website: 'banhthai.ca',
-        type: "Restaurant"
+        type: "Restaurant",
+        ratings: [
+          {
+            "rate": 5,
+            "name": "Vincent Rouleau",
+            comment: "De passage dans la région nous cherchions un coin sympa pour manger. Nous sommes rentrés au Temps d'une pinte et nous n'avons pas été déçu ! Accueil chaleureux, bonnes bières, service au top et plats savoureux!"
+          },
+          {
+            "rate": 5,
+            "name": "Francis Vallieres",
+            comment: "Le meilleur endroit pour prendre une bière à Trois-Rivières. Ah oui, la boustifaille et le café sont pas piqué des vers ;)"
+          },
+          {
+            "rate": 4,
+            "name": "Antoine Chené-Côté",
+            comment: "Très agréable. L'endroit idéal pour s'arrêter prendre une bière avec des amis. Par contre le menu est assez restreint et peut ne pas convenir à tous les goûts. Très bien cuisiné toutefois"
+          }
+        ]
       },{
         id: 7,
         name: "ELEPHANT",
@@ -168,7 +270,24 @@ define([
           tel: '(819) 840-6923',
           email: 'test@example.com'
         },
-        type: "Bar"
+        type: "Bar",
+        ratings: [
+          {
+            "rate": 5,
+            "name": "Vincent Rouleau",
+            comment: "De passage dans la région nous cherchions un coin sympa pour manger. Nous sommes rentrés au Temps d'une pinte et nous n'avons pas été déçu ! Accueil chaleureux, bonnes bières, service au top et plats savoureux!"
+          },
+          {
+            "rate": 5,
+            "name": "Francis Vallieres",
+            comment: "Le meilleur endroit pour prendre une bière à Trois-Rivières. Ah oui, la boustifaille et le café sont pas piqué des vers ;)"
+          },
+          {
+            "rate": 4,
+            "name": "Antoine Chené-Côté",
+            comment: "Très agréable. L'endroit idéal pour s'arrêter prendre une bière avec des amis. Par contre le menu est assez restreint et peut ne pas convenir à tous les goûts. Très bien cuisiné toutefois"
+          }
+        ]
       },{
         id: 8,
         name: "Librairie Poirier",
@@ -192,7 +311,24 @@ define([
           email: 'test@example.com'
         },
         website: 'librairiepoirier.ca',
-        type: "Autre"
+        type: "Autre",
+        ratings: [
+          {
+            "rate": 5,
+            "name": "Vincent Rouleau",
+            comment: "De passage dans la région nous cherchions un coin sympa pour manger. Nous sommes rentrés au Temps d'une pinte et nous n'avons pas été déçu ! Accueil chaleureux, bonnes bières, service au top et plats savoureux!"
+          },
+          {
+            "rate": 5,
+            "name": "Francis Vallieres",
+            comment: "Le meilleur endroit pour prendre une bière à Trois-Rivières. Ah oui, la boustifaille et le café sont pas piqué des vers ;)"
+          },
+          {
+            "rate": 4,
+            "name": "Antoine Chené-Côté",
+            comment: "Très agréable. L'endroit idéal pour s'arrêter prendre une bière avec des amis. Par contre le menu est assez restreint et peut ne pas convenir à tous les goûts. Très bien cuisiné toutefois"
+          }
+        ]
       },{
         id: 9,
         name: "L'Oriflamme",
@@ -215,7 +351,24 @@ define([
           tel: '(819) 694-4484',
           email: 'test@example.com'
         },
-        type: "Bar"
+        type: "Bar",
+        ratings: [
+          {
+            "rate": 5,
+            "name": "Vincent Rouleau",
+            comment: "De passage dans la région nous cherchions un coin sympa pour manger. Nous sommes rentrés au Temps d'une pinte et nous n'avons pas été déçu ! Accueil chaleureux, bonnes bières, service au top et plats savoureux!"
+          },
+          {
+            "rate": 5,
+            "name": "Francis Vallieres",
+            comment: "Le meilleur endroit pour prendre une bière à Trois-Rivières. Ah oui, la boustifaille et le café sont pas piqué des vers ;)"
+          },
+          {
+            "rate": 4,
+            "name": "Antoine Chené-Côté",
+            comment: "Très agréable. L'endroit idéal pour s'arrêter prendre une bière avec des amis. Par contre le menu est assez restreint et peut ne pas convenir à tous les goûts. Très bien cuisiné toutefois"
+          }
+        ]
       },{
         id: 10,
         name: "Café Morgane",
@@ -238,7 +391,24 @@ define([
           tel: '(819) 375-8821',
           email: 'test@example.com'
         },
-        type: "Restaurant"
+        type: "Restaurant",
+        ratings: [
+          {
+            "rate": 5,
+            "name": "Vincent Rouleau",
+            comment: "De passage dans la région nous cherchions un coin sympa pour manger. Nous sommes rentrés au Temps d'une pinte et nous n'avons pas été déçu ! Accueil chaleureux, bonnes bières, service au top et plats savoureux!"
+          },
+          {
+            "rate": 5,
+            "name": "Francis Vallieres",
+            comment: "Le meilleur endroit pour prendre une bière à Trois-Rivières. Ah oui, la boustifaille et le café sont pas piqué des vers ;)"
+          },
+          {
+            "rate": 4,
+            "name": "Antoine Chené-Côté",
+            comment: "Très agréable. L'endroit idéal pour s'arrêter prendre une bière avec des amis. Par contre le menu est assez restreint et peut ne pas convenir à tous les goûts. Très bien cuisiné toutefois"
+          }
+        ]
       },{
         id: 11,
         name: "Le temps d'une pinte",
@@ -262,7 +432,24 @@ define([
           email: 'test@example.com'
         },
         website: 'letempsdunepinte.ca',
-        type: "Bar"
+        type: "Bar",
+        ratings: [
+          {
+            "rate": 5,
+            "name": "Vincent Rouleau",
+            comment: "De passage dans la région nous cherchions un coin sympa pour manger. Nous sommes rentrés au Temps d'une pinte et nous n'avons pas été déçu ! Accueil chaleureux, bonnes bières, service au top et plats savoureux!"
+          },
+          {
+            "rate": 5,
+            "name": "Francis Vallieres",
+            comment: "Le meilleur endroit pour prendre une bière à Trois-Rivières. Ah oui, la boustifaille et le café sont pas piqué des vers ;)"
+          },
+          {
+            "rate": 4,
+            "name": "Antoine Chené-Côté",
+            comment: "Très agréable. L'endroit idéal pour s'arrêter prendre une bière avec des amis. Par contre le menu est assez restreint et peut ne pas convenir à tous les goûts. Très bien cuisiné toutefois"
+          }
+        ]
       }, {
         id: 12,
         name: "Gambrinus Brasserie Artisanale",
@@ -286,7 +473,24 @@ define([
           email: 'test@example.com'
         },
         website: 'http://www.gambrinus.qc.ca/',
-        type: "Bar"
+        type: "Bar",
+        ratings: [
+          {
+            "rate": 5,
+            "name": "Vincent Rouleau",
+            comment: "De passage dans la région nous cherchions un coin sympa pour manger. Nous sommes rentrés au Temps d'une pinte et nous n'avons pas été déçu ! Accueil chaleureux, bonnes bières, service au top et plats savoureux!"
+          },
+          {
+            "rate": 5,
+            "name": "Francis Vallieres",
+            comment: "Le meilleur endroit pour prendre une bière à Trois-Rivières. Ah oui, la boustifaille et le café sont pas piqué des vers ;)"
+          },
+          {
+            "rate": 4,
+            "name": "Antoine Chené-Côté",
+            comment: "Très agréable. L'endroit idéal pour s'arrêter prendre une bière avec des amis. Par contre le menu est assez restreint et peut ne pas convenir à tous les goûts. Très bien cuisiné toutefois"
+          }
+        ]
       }, {
         id: 13,
         name: "Crêperie Dc",
@@ -309,7 +513,24 @@ define([
           tel: '(819) 694-4484',
           email: 'test@example.com'
         },
-        type: "Restaurant"
+        type: "Restaurant",
+        ratings: [
+          {
+            "rate": 5,
+            "name": "Vincent Rouleau",
+            comment: "De passage dans la région nous cherchions un coin sympa pour manger. Nous sommes rentrés au Temps d'une pinte et nous n'avons pas été déçu ! Accueil chaleureux, bonnes bières, service au top et plats savoureux!"
+          },
+          {
+            "rate": 5,
+            "name": "Francis Vallieres",
+            comment: "Le meilleur endroit pour prendre une bière à Trois-Rivières. Ah oui, la boustifaille et le café sont pas piqué des vers ;)"
+          },
+          {
+            "rate": 4,
+            "name": "Antoine Chené-Côté",
+            comment: "Très agréable. L'endroit idéal pour s'arrêter prendre une bière avec des amis. Par contre le menu est assez restreint et peut ne pas convenir à tous les goûts. Très bien cuisiné toutefois"
+          }
+        ]
       }, {
         id: 14,
         name: "Sushizo",
@@ -332,7 +553,24 @@ define([
           tel: '(819) 840-2919',
           email: 'test@example.com'
         },
-        type: "Restaurant"
+        type: "Restaurant",
+        ratings: [
+          {
+            "rate": 5,
+            "name": "Vincent Rouleau",
+            comment: "De passage dans la région nous cherchions un coin sympa pour manger. Nous sommes rentrés au Temps d'une pinte et nous n'avons pas été déçu ! Accueil chaleureux, bonnes bières, service au top et plats savoureux!"
+          },
+          {
+            "rate": 5,
+            "name": "Francis Vallieres",
+            comment: "Le meilleur endroit pour prendre une bière à Trois-Rivières. Ah oui, la boustifaille et le café sont pas piqué des vers ;)"
+          },
+          {
+            "rate": 4,
+            "name": "Antoine Chené-Côté",
+            comment: "Très agréable. L'endroit idéal pour s'arrêter prendre une bière avec des amis. Par contre le menu est assez restreint et peut ne pas convenir à tous les goûts. Très bien cuisiné toutefois"
+          }
+        ]
       }, {
         id: 15,
         name: "La Maison de Débauche par le Carlito",
@@ -355,7 +593,24 @@ define([
           tel: '(819) 694-4484',
           email: 'test@example.com'
         },
-        type: "Bar"
+        type: "Bar",
+        ratings: [
+          {
+            "rate": 5,
+            "name": "Vincent Rouleau",
+            comment: "De passage dans la région nous cherchions un coin sympa pour manger. Nous sommes rentrés au Temps d'une pinte et nous n'avons pas été déçu ! Accueil chaleureux, bonnes bières, service au top et plats savoureux!"
+          },
+          {
+            "rate": 5,
+            "name": "Francis Vallieres",
+            comment: "Le meilleur endroit pour prendre une bière à Trois-Rivières. Ah oui, la boustifaille et le café sont pas piqué des vers ;)"
+          },
+          {
+            "rate": 4,
+            "name": "Antoine Chené-Côté",
+            comment: "Très agréable. L'endroit idéal pour s'arrêter prendre une bière avec des amis. Par contre le menu est assez restreint et peut ne pas convenir à tous les goûts. Très bien cuisiné toutefois"
+          }
+        ]
       }, {
         id: 16,
         name: "Banh Thai Restaurant",
@@ -379,7 +634,24 @@ define([
           email: 'test@example.com'
         },
         website: 'banhthai.ca',
-        type: "Restaurant"
+        type: "Restaurant",
+        ratings: [
+          {
+            "rate": 5,
+            "name": "Vincent Rouleau",
+            comment: "De passage dans la région nous cherchions un coin sympa pour manger. Nous sommes rentrés au Temps d'une pinte et nous n'avons pas été déçu ! Accueil chaleureux, bonnes bières, service au top et plats savoureux!"
+          },
+          {
+            "rate": 5,
+            "name": "Francis Vallieres",
+            comment: "Le meilleur endroit pour prendre une bière à Trois-Rivières. Ah oui, la boustifaille et le café sont pas piqué des vers ;)"
+          },
+          {
+            "rate": 4,
+            "name": "Antoine Chené-Côté",
+            comment: "Très agréable. L'endroit idéal pour s'arrêter prendre une bière avec des amis. Par contre le menu est assez restreint et peut ne pas convenir à tous les goûts. Très bien cuisiné toutefois"
+          }
+        ]
       },{
         id: 17,
         name: "ELEPHANT",
@@ -402,7 +674,24 @@ define([
           tel: '(819) 840-6923',
           email: 'test@example.com'
         },
-        type: "Bar"
+        type: "Bar",
+        ratings: [
+          {
+            "rate": 5,
+            "name": "Vincent Rouleau",
+            comment: "De passage dans la région nous cherchions un coin sympa pour manger. Nous sommes rentrés au Temps d'une pinte et nous n'avons pas été déçu ! Accueil chaleureux, bonnes bières, service au top et plats savoureux!"
+          },
+          {
+            "rate": 5,
+            "name": "Francis Vallieres",
+            comment: "Le meilleur endroit pour prendre une bière à Trois-Rivières. Ah oui, la boustifaille et le café sont pas piqué des vers ;)"
+          },
+          {
+            "rate": 4,
+            "name": "Antoine Chené-Côté",
+            comment: "Très agréable. L'endroit idéal pour s'arrêter prendre une bière avec des amis. Par contre le menu est assez restreint et peut ne pas convenir à tous les goûts. Très bien cuisiné toutefois"
+          }
+        ]
       },{
         id: 18,
         name: "Librairie Poirier",
@@ -426,7 +715,24 @@ define([
           email: 'test@example.com'
         },
         website: 'librairiepoirier.ca',
-        type: "Autre"
+        type: "Autre",
+        ratings: [
+          {
+            "rate": 5,
+            "name": "Vincent Rouleau",
+            comment: "De passage dans la région nous cherchions un coin sympa pour manger. Nous sommes rentrés au Temps d'une pinte et nous n'avons pas été déçu ! Accueil chaleureux, bonnes bières, service au top et plats savoureux!"
+          },
+          {
+            "rate": 5,
+            "name": "Francis Vallieres",
+            comment: "Le meilleur endroit pour prendre une bière à Trois-Rivières. Ah oui, la boustifaille et le café sont pas piqué des vers ;)"
+          },
+          {
+            "rate": 4,
+            "name": "Antoine Chené-Côté",
+            comment: "Très agréable. L'endroit idéal pour s'arrêter prendre une bière avec des amis. Par contre le menu est assez restreint et peut ne pas convenir à tous les goûts. Très bien cuisiné toutefois"
+          }
+        ]
       },{
         id: 19,
         name: "L'Oriflamme",
@@ -449,7 +755,24 @@ define([
           tel: '(819) 694-4484',
           email: 'test@example.com'
         },
-        type: "Bar"
+        type: "Bar",
+        ratings: [
+          {
+            "rate": 5,
+            "name": "Vincent Rouleau",
+            comment: "De passage dans la région nous cherchions un coin sympa pour manger. Nous sommes rentrés au Temps d'une pinte et nous n'avons pas été déçu ! Accueil chaleureux, bonnes bières, service au top et plats savoureux!"
+          },
+          {
+            "rate": 5,
+            "name": "Francis Vallieres",
+            comment: "Le meilleur endroit pour prendre une bière à Trois-Rivières. Ah oui, la boustifaille et le café sont pas piqué des vers ;)"
+          },
+          {
+            "rate": 4,
+            "name": "Antoine Chené-Côté",
+            comment: "Très agréable. L'endroit idéal pour s'arrêter prendre une bière avec des amis. Par contre le menu est assez restreint et peut ne pas convenir à tous les goûts. Très bien cuisiné toutefois"
+          }
+        ]
       },{
         id: 20,
         name: "Café Morgane",
@@ -472,7 +795,24 @@ define([
           tel: '(819) 375-8821',
           email: 'test@example.com'
         },
-        type: "Restaurant"
+        type: "Restaurant",
+        ratings: [
+          {
+            "rate": 5,
+            "name": "Vincent Rouleau",
+            comment: "De passage dans la région nous cherchions un coin sympa pour manger. Nous sommes rentrés au Temps d'une pinte et nous n'avons pas été déçu ! Accueil chaleureux, bonnes bières, service au top et plats savoureux!"
+          },
+          {
+            "rate": 5,
+            "name": "Francis Vallieres",
+            comment: "Le meilleur endroit pour prendre une bière à Trois-Rivières. Ah oui, la boustifaille et le café sont pas piqué des vers ;)"
+          },
+          {
+            "rate": 4,
+            "name": "Antoine Chené-Côté",
+            comment: "Très agréable. L'endroit idéal pour s'arrêter prendre une bière avec des amis. Par contre le menu est assez restreint et peut ne pas convenir à tous les goûts. Très bien cuisiné toutefois"
+          }
+        ]
       }];
 
       this.pages = [{
