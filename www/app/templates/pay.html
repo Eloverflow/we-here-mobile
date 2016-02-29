@@ -1,10 +1,22 @@
-<ion-content>
-  <img ng-src="img/ripple.svg"/>
 
+<ion-content>
+  <img ng-src="/img/ripple.svg" />
+  <ion-item class="item-balanced" id="payContent" >
+    <b>Approcher votre téléphone du module de paiement</b><br>
+    Propulsé par Stripe
+  </ion-item>
 </ion-content>
-<b>Approchez votre téléphone du module de paiement</b>
+
+
+
+<!--
+<ion-content>
+  <button class="button button-block button-positive">
+    Annuler
+  </button>
+</ion-content>-->
 <div class="bar bar-footer button-bar bar-calm">
-  <a class="button" ng-click="hideOverlay()">
+  <a class="button" ng-click="hideOverlay()" >
     Annuler
   </a>
 

@@ -132,12 +132,44 @@ define([
         }
       };
 
+
+      $scope.$on('$ionicView.enter', function(e) {
+        var deleteLink = document.querySelectorAll('.loading-container');
+        /*var x = document.getElementsByClassName("loading-container");*/
+
+        for (var i = 0; i < deleteLink.length; i++) {
+          deleteLink[i].addEventListener('click', function(event) {
+            $ionicLoading.hide();
+          });
+        }
+      });
+
+
       $scope.showOverlayDicover = function() {
         $ionicLoading.show({
           templateUrl: 'app/templates/overlayDiscover.html',
           scope: $scope
         });
-      };
+
+        setTimeout(function() {
+          var deleteLink = document.querySelectorAll('.loading-container');
+          /*var x = document.getElementsByClassName("loading-container");*/
+
+
+          for (var i = 0; i < deleteLink.length; i++) {
+            deleteLink[i].addEventListener('click', function(event) {
+              $ionicLoading.hide();
+            });
+          }
+        }, 1000);
+
+
+
+          /*x.addEventListener('click', function() {
+            $ionicLoading.hide();
+          });*/
+        };
+
       $scope.hideOverlayDicover = function(){
         $ionicLoading.hide();
       };

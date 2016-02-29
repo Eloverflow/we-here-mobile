@@ -39,3 +39,41 @@
   height: 15px;
   width: 15px;
 }
+/*
+
+#payContent{
+  margin-top: 80px;
+}
+*/
+
+.loading{
+  background-color: rgba(0, 0, 0, 0)!important;
+}
+
+.animate-enter {
+  -webkit-transition: 1s linear all; /* Chrome */
+  transition: 1s linear all;
+  opacity: 0;
+}
+
+.animate-enter.animate-enter-active {
+  opacity: 1;
+}
+
+.box-one {
+  -webkit-transition:all linear 0.5s;
+  transition:all linear 0.5s;
+}
+.box-one.ng-show {
+  opacity:0;
+}
+
+.animated.ng-enter, .animated.ng-leave{
+  animation-duration:1s;
+  animation-fill-mode:both;
+}
+.roll.ng-enter{ animation-name: rollIn; }
+.roll.ng-leave{ animation-name: rollOut; }
+
+.fade.ng-enter{ animation-name: fadeIn; }
+.fade.ng-leave{ animation-name: fadeOut; }

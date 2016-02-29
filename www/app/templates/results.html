@@ -35,12 +35,12 @@
     </p>
     <i class="icon ion-ios-arrow-right"></i>
   </ion-item>
-  <ion-content ng-show="show.list" class="background-stable">
+  <ion-content ng-show="show.list" class="background-stable fade">
     <ion-refresher on-refresh="reload()">
     </ion-refresher>
     <div ng-show="show.list">
       <ion-list>
-          <ion-item ui-sref="detail({id: event.id})" class="item-royal item-avatar item-icon-right" ng-repeat="event in events | limitTo:limit">
+          <ion-item  ui-sref="detail({id: event.id})" class="item-royal item-avatar item-icon-right" ng-repeat="event in events | limitTo:limit">
             <img ng-src="{{event.thumb}}">
             <h2>{{event.name}}</h2>
             <p>
