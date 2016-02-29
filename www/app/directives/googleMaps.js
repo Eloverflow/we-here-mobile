@@ -43,7 +43,7 @@ define([
               });
               // center on first hit
               if (!i) {
-                map.setCenter(mapsMarker.getPosition());
+                map.setCenter(new $window.google.maps.LatLng(46.345672, -72.573886));
               }
               addClick(mapsMarker, scope.events[i].id);
             }
@@ -67,6 +67,16 @@ define([
             };
             if (!map) {
               map = new $window.google.maps.Map(element[0], mapOptions);
+
+              var circle = new google.maps.Circle({
+                strokeColor: '#FF0000',
+                strokeOpacity: 0.8,
+                strokeWeight: 2,
+                fillOpacity: 0,
+                map: map,
+                radius: 3000,
+                center: {lat: 46.345672, lng: -72.573886}
+              });
             }
             makeMarkers();
           }
