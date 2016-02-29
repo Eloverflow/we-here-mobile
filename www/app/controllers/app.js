@@ -10,8 +10,23 @@ define([
     '$ionicScrollDelegate',
     '$sce',
     'pageService',
-    function ($scope, $ionicModal, $ionicScrollDelegate, $sce, pageService) {
+    '$ionicLoading',
+    function ($scope, $ionicModal, $ionicScrollDelegate, $sce, pageService, $ionicLoading) {
       $scope.ready = true;
+
+      $scope.pay = function() {
+        $ionicLoading.show({
+          templateUrl: '/app/templates/pay.html',
+          scope: $scope
+        });
+      };
+
+      $scope.hideOverlay = function(){
+        $ionicLoading.hide();
+        //Fermer le panneau
+
+      };
+
 
       pageService.get().then(function (pages) {
         $scope.pages = pages;
