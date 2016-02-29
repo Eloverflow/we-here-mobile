@@ -39,15 +39,15 @@
       <ion-list>
         <ion-item class="item-divider item-icon-right"><b>Contacter</b> <i class="icon ion-chatboxes"></i></ion-item>
         <ion-item class="item-icon-right" ng-click="call()">
-          Téléphoner nous
+          Téléphonez-nous
           <i class="icon ion-android-call"></i>
         </ion-item>
         <ion-item class="item-icon-right" ng-click="mail()">
-          Envoyer nous un courriel
+          Envoyez-nous un courriel
           <i class="icon ion-ios-email"></i>
         </ion-item>
         <ion-item class="item-icon-right" ng-click="website()">
-          Visiter notre site web
+          Visitez notre site web
           <i class="icon ion-ios-home"></i>
         </ion-item>
       </ion-list>
@@ -60,7 +60,7 @@
           <i class="icon" ng-class="isFullStar(rating.rate, i) ? 'ion-ios-star' : 'ion-ios-star-outline'" ng-repeat="i in [1, 2, 3, 4, 5] track by $index"></i>
           {{rating.comment}}
         </ion-item>
-        <ion-item ng-click="openRatingModal()"><b>DONNER VOTRE AVIS!</b></ion-item>
+        <ion-item ng-click="openRatingModal()"><b>DONNEZ VOTRE AVIS!</b></ion-item>
       </ion-list>
     </div>
   </ion-content>

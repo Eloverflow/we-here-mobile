@@ -949,7 +949,7 @@ define([
           isActive: true
         },
         {
-          name: "Sports",
+          name: "Sport",
           isActive: true
         },
         {
