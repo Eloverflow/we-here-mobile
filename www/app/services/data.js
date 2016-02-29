@@ -8,7 +8,7 @@ define([
       this.events = [{
         id: 1,
         name: "Le temps d'une pinte",
-        city: 'Trois-Rivière',
+        city: 'Trois-Rivières',
         street: 'Rue Notre Dame Centre',
         number: '1465',
         zip: 'G9A 4X4',
@@ -54,7 +54,7 @@ define([
       }, {
         id: 2,
         name: "Gambrinus Brasserie Artisanale",
-        city: 'Trois-Rivière',
+        city: 'Trois-Rivières',
         street: 'Boulevard des Forges',
         number: '3160',
         zip: 'G8Z 1V6',
@@ -100,7 +100,7 @@ define([
       }, {
         id: 3,
         name: "Crêperie Dc",
-        city: 'Trois-Rivière',
+        city: 'Trois-Rivières',
         street: 'Boulevard des Récollets',
         number: '855',
         zip: 'G8Z 3W4',
@@ -145,7 +145,7 @@ define([
       }, {
         id: 4,
         name: "Sushizo",
-        city: 'Trois-Rivière',
+        city: 'Trois-Rivières',
         street: 'Rue Royale',
         number: '1350',
         zip: 'G9A 4J4',
@@ -190,7 +190,7 @@ define([
       }, {
         id: 5,
         name: "La Maison de Débauche par le Carlito",
-        city: 'Trois-Rivière',
+        city: 'Trois-Rivières',
         street: 'Rue des Forges',
         number: '361',
         zip: 'G9A 4S8',
@@ -235,7 +235,7 @@ define([
       }, {
         id: 6,
         name: "Banh Thai Restaurant",
-        city: 'Trois-Rivière',
+        city: 'Trois-Rivières',
         street: 'Boul Gene-H.-Kruger',
         number: '4730',
         zip: 'G9A 4N1',
@@ -281,7 +281,7 @@ define([
       },{
         id: 7,
         name: "ELEPHANT",
-        city: 'Trois-Rivière',
+        city: 'Trois-Rivières',
         street: 'Boulevard des Récollets',
         number: '820',
         zip: 'G8Z 3W2',
@@ -326,7 +326,7 @@ define([
       },{
         id: 8,
         name: "Librairie Poirier",
-        city: 'Trois-Rivière',
+        city: 'Trois-Rivières',
         street: 'Boulevard des Récollets',
         number: '1374',
         zip: 'G8Z 4L5',
@@ -371,7 +371,7 @@ define([
       },{
         id: 9,
         name: "L'Oriflamme",
-        city: 'Trois-Rivière',
+        city: 'Trois-Rivières',
         street: 'Boulevard des Forges',
         number: '1900',
         zip: 'G8Z 0A3',
@@ -416,7 +416,7 @@ define([
       },{
         id: 10,
         name: "Café Morgane",
-        city: 'Trois-Rivière',
+        city: 'Trois-Rivières',
         street: 'Boulevard des Forges',
         number: '3790',
         zip: 'G8Y 4R2',
@@ -460,7 +460,7 @@ define([
       },{
         id: 11,
         name: "Le temps d'une pinte",
-        city: 'Trois-Rivière',
+        city: 'Trois-Rivières',
         street: 'Rue Notre Dame Centre',
         number: '1465',
         zip: 'G9A 4X4',
@@ -506,7 +506,7 @@ define([
       }, {
         id: 12,
         name: "Gambrinus Brasserie Artisanale",
-        city: 'Trois-Rivière',
+        city: 'Trois-Rivières',
         street: 'Boulevard des Forges',
         number: '3160',
         zip: 'G8Z 1V6',
@@ -552,7 +552,7 @@ define([
       }, {
         id: 13,
         name: "Crêperie Dc",
-        city: 'Trois-Rivière',
+        city: 'Trois-Rivières',
         street: 'Boulevard des Récollets',
         number: '855',
         zip: 'G8Z 3W4',
@@ -597,7 +597,7 @@ define([
       }, {
         id: 14,
         name: "Sushizo",
-        city: 'Trois-Rivière',
+        city: 'Trois-Rivières',
         street: 'Rue Royale',
         number: '1350',
         zip: 'G9A 4J4',
@@ -642,7 +642,7 @@ define([
       }, {
         id: 15,
         name: "La Maison de Débauche par le Carlito",
-        city: 'Trois-Rivière',
+        city: 'Trois-Rivières',
         street: 'Rue des Forges',
         number: '361',
         zip: 'G9A 4S8',
@@ -687,7 +687,7 @@ define([
       }, {
         id: 16,
         name: "Banh Thai Restaurant",
-        city: 'Trois-Rivière',
+        city: 'Trois-Rivières',
         street: 'Boul Gene-H.-Kruger',
         number: '4730',
         zip: 'G9A 4N1',
@@ -733,7 +733,7 @@ define([
       },{
         id: 17,
         name: "ELEPHANT",
-        city: 'Trois-Rivière',
+        city: 'Trois-Rivières',
         street: 'Boulevard des Récollets',
         number: '820',
         zip: 'G8Z 3W2',
@@ -778,7 +778,7 @@ define([
       },{
         id: 18,
         name: "Librairie Poirier",
-        city: 'Trois-Rivière',
+        city: 'Trois-Rivières',
         street: 'Boulevard des Récollets',
         number: '1374',
         zip: 'G8Z 4L5',
@@ -823,7 +823,7 @@ define([
       },{
         id: 19,
         name: "L'Oriflamme",
-        city: 'Trois-Rivière',
+        city: 'Trois-Rivières',
         street: 'Boulevard des Forges',
         number: '1900',
         zip: 'G8Z 0A3',
@@ -868,7 +868,7 @@ define([
       },{
         id: 20,
         name: "Café Morgane",
-        city: 'Trois-Rivière',
+        city: 'Trois-Rivières',
         street: 'Boulevard des Forges',
         number: '3790',
         zip: 'G8Y 4R2',
