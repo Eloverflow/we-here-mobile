@@ -10,7 +10,7 @@ This is an visual application(bootstrap) make for a starup week-end
 
 ## How to use this app
 
-Type in windows terminal
+Type in windows terminal (Or linux obviously)
 
 - git clone https://github.com/Eloverflow/we-here-mobile we-here-mobile-folder
 - cd we-here-mobile-folder
