@@ -1,21 +1,33 @@
-# ionic-starter-eventmaps
+# we-here-mobile
 
-This is an addon starter template based on [RequireJS](http://requirejs.org/) for the [Ionic Framework](http://ionicframework.com/) for event apps with the usage of Google Maps (custom directive).
+This is an visual application(bootstrap) make for a starup week-end
 
-## How to use this template
+## Prequiriement
 
-To use this, either create a new ionic project using the ionic node.js utility, or copy and paste this into an existing Cordova project.
+cordova
+ionic
+git
+
+## How to use this app
+
+Type in windows terminal
+git clone https://github.com/Eloverflow/we-here-mobile we-here-mobile-folder
+cd we-here-mobile-folder
+ionic serve
 
 ## Content
 
-- Handling possible backend-requests in services
+- Map objects integration / drawing
+- Handling possible backend-requests out of services
 - mockdata
 - simulate backend connections with promises and timeouts
 - simple and only a little bit scss styling
 - usage of ionRefresher, infiniteScroll, ionSpinner, Popups, Modals
 - Custom little Google Maps directive to show map and markers (linked markers)
 - open native map app via detail page
-- open dialer for tel contact on detail page
-- open mail app for email contact on detail page
-- open browser for website on detail page
+- On map object click, a div display the last object 
+- Dual view / Map or List
 - random images
+- You can try it here : 
+- http://mirageflow.com/projet-wehere 
+- or directly here : http://wehere.mirageflow.com/
