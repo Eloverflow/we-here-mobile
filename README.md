@@ -4,16 +4,17 @@ This is an visual application(bootstrap) make for a starup week-end
 
 ## Prequiriement
 
-cordova
-ionic
-git
+- cordova
+- ionic
+- git
 
 ## How to use this app
 
 Type in windows terminal
-git clone https://github.com/Eloverflow/we-here-mobile we-here-mobile-folder
-cd we-here-mobile-folder
-ionic serve
+
+- git clone https://github.com/Eloverflow/we-here-mobile we-here-mobile-folder
+- cd we-here-mobile-folder
+- ionic serve
 
 ## Content
 
