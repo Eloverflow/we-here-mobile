@@ -29,6 +29,3 @@ Type in windows terminal (Or linux obviously)
 - On map object click, a div display the last object 
 - Dual view / Map or List
 - random images
-- You can try it here : 
-- http://mirageflow.com/projet-wehere 
-- or directly here : http://wehere.mirageflow.com/
